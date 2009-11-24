@@ -1,0 +1,58 @@
+/*
+
+Solar-Logger - A Daemon for logging Data from a Solar Plant
+Copyright (C) 2007  Klaus Dotterweich (dr.dotti@gmx.de)
+
+This program is free software; you can redistribute it and/or modify it under the terms of the
+GNU General Public License as published by the Free Software Foundation;
+either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program;
+if not, see <http://www.gnu.org/licenses/>.
+
+
+
+Solar-Logger - Ein Daemon zum loggen der Daten einer Solaranlage
+Copyright (C) 2007  Klaus Dotterweich (dr.dotti@gmx.de)
+
+Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License,
+wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren,
+entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
+
+Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird,
+aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder
+der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
+
+Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben.
+Falls nicht, siehe <http://www.gnu.org/licenses/>.
+
+*/
+
+/**************************************************************************
+*
+*  Funktionssammlung um ein Programm zu einem Daemon zu machen
+*
+***************************************************************************
+*  DateiName:	daemon.h
+*  Status:		InArbeit
+***************************************************************************/
+
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <signal.h>					// für Signalhandler
+#include <fcntl.h>					// für Dateisperren ???
+
+
+
+extern void start_daemon (const char *log_name, int facility);
+extern void stop_daemon (void);
+extern int theonly_daemon(void);
+
+
+
+// Ende
