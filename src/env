@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=../../ftplib-3.1/linux:../../yasdi-1.7.2/projects/linuxlib:/home/ubuntu/libmodbus-2.0.0/modbus/.libs

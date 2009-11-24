@@ -15,25 +15,28 @@
 # Solar-Logger - Ein Daemon zum loggen der Daten einer Solaranlage
 # Copyright (C) 2007  Klaus Dotterweich (dr.dotti@gmx.de)
 #
-# Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License,
-# wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren,
-# entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
+# Dieses Programm ist freie Software. Sie kï¿½nnen es unter den Bedingungen der GNU General Public License,
+# wie von der Free Software Foundation verï¿½ffentlicht, weitergeben und/oder modifizieren,
+# entweder gemï¿½ï¿½ Version 3 der Lizenz oder (nach Ihrer Option) jeder spï¿½teren Version.
 #
-# Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird,
+# Die Verï¿½ffentlichung dieses Programms erfolgt in der Hoffnung, daï¿½ es Ihnen von Nutzen sein wird,
 # aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder
-# der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
+# der VERWENDBARKEIT Fï¿½R EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
 #
 # Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben.
 # Falls nicht, siehe <http://www.gnu.org/licenses/>.
 
-YASDI	= ../../
-QFTP	= ../qftp/
+YASDI	= ../../yasdi-1.7.2/
+QFTP	= ../../ftplib-3.1/linux/
+MODBUS  = /home/ubuntu/libmodbus-2.0.0
 CC		= gcc
 CFLAGS	= -g -O2 -c
-INC		= -I$(YASDI)include/ -I$(YASDI)smalib/ -I$(YASDI)libs/ -I$(QFTP)
-OBJECTS	= solar-logger.o daemon.o log.o ini.o ftp.o timer.o wrerfassen.o wrabfragen.o kanalrech.o solueberwachen.o solstatus.o sollog.o
-LIBS	= -lyasdimaster -lftp
+INC		= -I$(YASDI)include/ -I$(YASDI)smalib/ -I$(YASDI)libs/ -I$(QFTP) -I$(MODBUS)
+OBJECTS	= solar-logger.o daemon.o log.o sqlite3common.o logsqlite3.o logsunmeter.o ini.o ftp.o timer.o wrerfassen.o wrabfragen.o kanalrech.o solueberwachen.o solstatus.o sollog.o
+LIBS	= -L$(YASDI)/projects/linuxlib -L$(QFTP) -L$(MODBUS)/modbus/.libs -lmodbus -lyasdi -lyasdimaster -lftp -lsqlite3
 
+
+all: solar-logger
 
 solar-logger: $(OBJECTS)
 	$(CC) -o $@ $(OBJECTS) $(INC) $(LIBS)
@@ -61,19 +64,19 @@ clean:
 # Beispiel
 # --------
 #
-# Ziel:			Der Name vor dem Doppelpunkt ist das zu überstzende Ziel
-# 				In den Zeilen danach können shell befehle stehen.
+# Ziel:			Der Name vor dem Doppelpunkt ist das zu ï¿½berstzende Ziel
+# 				In den Zeilen danach kï¿½nnen shell befehle stehen.
 #				Wichtig ist nur dass jede Zeile mit einem TAB beginnt
 #				sonst dir die Zeile nicht erkannt.
 #
 # Nun Kann man mit
-# 'make Ziel' das Ziel "Ziel" übersetzen.
+# 'make Ziel' das Ziel "Ziel" ï¿½bersetzen.
 # gibt man nur
-# 'make' an so wird das erste Ziel im makefile ausgeführt.
+# 'make' an so wird das erste Ziel im makefile ausgefï¿½hrt.
 #
-# Ziel : Abhängigkeitsliste
+# Ziel : Abhï¿½ngigkeitsliste
 #
-#	Das Ziel ist von allen Datein in der Abhängigkeitsliste abhängig.
+#	Das Ziel ist von allen Datein in der Abhï¿½ngigkeitsliste abhï¿½ngig.
 #
 #
 # gcc Optionen
@@ -81,7 +84,7 @@ clean:
 #
 # -g		Debug Informationen in Ausgabedatei schreiben
 # -O2		Steuert die Stufen der Codeoptimierung
-# -Idir		Verzeichnis für Include Datein definieren
+# -Idir		Verzeichnis fï¿½r Include Datein definieren
 # -c		nur Kompilieren, Linker nicht aktivieren
 # -ldatei	Verwenden bestimmter Bibliotheken
 # -o datei	Ausgabedatei definieren

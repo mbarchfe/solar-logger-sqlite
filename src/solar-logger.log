@@ -1,0 +1,3288 @@
+<22.11.2009 12:56:02> Daemon gestartet.
+<22.11.2009 12:56:02> Überprüfung ob Daemon bereits gestartet.
+<22.11.2009 12:56:02> Dies ist der einzige Daemon.
+<22.11.2009 12:56:02> WRInit gestartet.
+<22.11.2009 12:56:02> DriverAnzahl nach 'yasdiMasterInitialize' ist 1.
+<22.11.2009 12:56:02> AnzahlSollWR ist 5.
+<22.11.2009 12:56:02> IntervallZeitWRErfassen ist 0.
+<22.11.2009 12:56:02> DriverAnzahl nach 'yasdiMasterGetDriver' ist 1.
+<22.11.2009 12:56:02> Driver 'IP1' online schalten!!!  Erfolgreich
+<22.11.2009 12:56:02> WR Erfassung Initialisiert!!!
+<22.11.2009 12:56:02> InitAnzahl von WRKanaele.Anzahl ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von WRKanaele.StellenNach_1 ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von WRKanaele.StellenVor_1 ist 3!!!
+<22.11.2009 12:56:02> InitAnzahl von Loggen.LogGesamtOutputTypeAnzahl ist 1!!!
+<22.11.2009 12:56:02> InitOutputType von Loggen.LogGesamtOutputType[0] ist 1!!!
+<22.11.2009 12:56:02> InitOutputFormat von Loggen.LogGesamtOutputFormat[0] ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von Loggen.LogOutputTypeAnzahl ist 1!!!
+<22.11.2009 12:56:02> InitOutputType von Loggen.LogOutputType[0] ist 1!!!
+<22.11.2009 12:56:02> InitOutputFormat von Loggen.LogOutputFormat[0] ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von Loggen.LogKanalAnzahl ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von Loggen.LogMonatOutputTypeAnzahl ist 1!!!
+<22.11.2009 12:56:02> InitOutputType von Loggen.LogMonatOutputType[0] ist 1!!!
+<22.11.2009 12:56:02> InitOutputFormat von Loggen.LogMonatOutputFormat[0] ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von Loggen.LogMonatWRAnzahl ist 3!!!
+<22.11.2009 12:56:02> InitAnzahl von Loggen.LogMonatKanalAnzahl ist 2!!!
+<22.11.2009 12:56:02> InitAnzahl von Status.StatusUebersichtGesamtOutputTypeAnzahl ist 1!!!
+<22.11.2009 12:56:02> InitOutputType von Status.StatusUebersichtGesamtOutputType[0] ist 1!!!
+<22.11.2009 12:56:02> InitOutputFormat von Status.StatusUebersichtGesamtOutputFormat[0] ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von Status.StatusUebersichtOutputTypeAnzahl ist 1!!!
+<22.11.2009 12:56:02> InitOutputType von Status.StatusUebersichtOutputType[0] ist 1!!!
+<22.11.2009 12:56:02> InitOutputFormat von Status.StatusUebersichtOutputFormat[0] ist 1!!!
+<22.11.2009 12:56:02> InitAnzahl von Status.StatusUebersichtKanalAnzahl ist 7!!!
+<22.11.2009 12:56:02> InitAnzahl von Status.StatusOutputTypeAnzahl ist 0!!!
+<22.11.2009 12:56:02> Grundinitialisierung abgeschlossen
+<22.11.2009 12:56:02> WR Erfassung gestartet!!! (Soll 5 WR)
+<22.11.2009 12:56:07> Es wurden 5 WR erfasst.
+<22.11.2009 12:56:07> WR Erfassung erfolgreich
+<22.11.2009 12:56:07> InitAnzahl von ErrechneteKanaele.Anzahl ist 0!!!
+<22.11.2009 12:56:07> Laden der ErrechneteKanaeleTemp Variablen in ./tmp/9380933.errechnungs.variablen.datei.tmp gestartet.
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> Laden der ErrechneteKanaeleTemp Variablen in ./tmp/9380934.errechnungs.variablen.datei.tmp gestartet.
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> Laden der ErrechneteKanaeleTemp Variablen in ./tmp/9380935.errechnungs.variablen.datei.tmp gestartet.
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> Laden der ErrechneteKanaeleTemp Variablen in ./tmp/9380936.errechnungs.variablen.datei.tmp gestartet.
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> Laden der ErrechneteKanaeleTemp Variablen in ./tmp/9380937.errechnungs.variablen.datei.tmp gestartet.
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> vor READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleLongTemp[Zaehler - 1][i - 1] = 0
+<22.11.2009 12:56:07> nach READ ErrechneteKanaeleDoubleTemp[Zaehler - 1][i - 1] = 0.000000
+<22.11.2009 12:56:07> Connecting to database /tmp/test1.sqlite3
+<22.11.2009 12:56:07> Could not prepare for creating table, assuming table exists.
+<22.11.2009 12:56:07> Created Table: create table environment (time integer, temperature integer, irradiance double); 
+<22.11.2009 12:56:07> ERROR: Connection to Modbus failed
+<22.11.2009 12:56:07> Initialisierung abgeschlossen
+<22.11.2009 12:56:07> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:09> Uac: 231.000000
+<22.11.2009 12:56:09> Iac: 21757.000000
+<22.11.2009 12:56:09> Error reading input parameter at 257.
+<22.11.2009 12:56:09> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:13> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:14> Uac: 222.000000
+<22.11.2009 12:56:14> Iac: 23423.000000
+<22.11.2009 12:56:14> Error reading input parameter at 257.
+<22.11.2009 12:56:14> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:19> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:21> Uac: 235.000000
+<22.11.2009 12:56:21> Iac: 23608.000000
+<22.11.2009 12:56:21> Error reading input parameter at 257.
+<22.11.2009 12:56:21> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:26> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:27> Uac: 241.000000
+<22.11.2009 12:56:27> Iac: 22479.000000
+<22.11.2009 12:56:27> Error reading input parameter at 257.
+<22.11.2009 12:56:27> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:32> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:33> Uac: 221.000000
+<22.11.2009 12:56:33> Iac: 24076.000000
+<22.11.2009 12:56:33> Error reading input parameter at 257.
+<22.11.2009 12:56:33> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:38> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:39> Uac: 241.000000
+<22.11.2009 12:56:39> Iac: 21577.000000
+<22.11.2009 12:56:39> Error reading input parameter at 257.
+<22.11.2009 12:56:39> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:44> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:45> Uac: 235.000000
+<22.11.2009 12:56:45> Iac: 23569.000000
+<22.11.2009 12:56:45> Error reading input parameter at 257.
+<22.11.2009 12:56:45> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:50> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:51> Uac: 238.000000
+<22.11.2009 12:56:51> Iac: 22201.000000
+<22.11.2009 12:56:51> Error reading input parameter at 257.
+<22.11.2009 12:56:51> Error: Could not read temperature from sunmeter
+<22.11.2009 12:56:56> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:56:57> Uac: 224.000000
+<22.11.2009 12:56:57> Iac: 21284.000000
+<22.11.2009 12:56:57> Error reading input parameter at 257.
+<22.11.2009 12:56:57> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:02> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:03> Uac: 225.000000
+<22.11.2009 12:57:03> Iac: 22744.000000
+<22.11.2009 12:57:03> Error reading input parameter at 257.
+<22.11.2009 12:57:03> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:08> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:10> Uac: 239.000000
+<22.11.2009 12:57:10> Iac: 21518.000000
+<22.11.2009 12:57:10> Error reading input parameter at 257.
+<22.11.2009 12:57:10> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:15> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:16> Uac: 227.000000
+<22.11.2009 12:57:16> Iac: 20330.000000
+<22.11.2009 12:57:16> Error reading input parameter at 257.
+<22.11.2009 12:57:16> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:21> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:22> Uac: 219.000000
+<22.11.2009 12:57:22> Iac: 20992.000000
+<22.11.2009 12:57:22> Error reading input parameter at 257.
+<22.11.2009 12:57:22> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:27> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:28> Uac: 234.000000
+<22.11.2009 12:57:28> Iac: 23815.000000
+<22.11.2009 12:57:28> Error reading input parameter at 257.
+<22.11.2009 12:57:28> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:33> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:34> Uac: 232.000000
+<22.11.2009 12:57:34> Iac: 20918.000000
+<22.11.2009 12:57:34> Error reading input parameter at 257.
+<22.11.2009 12:57:34> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:39> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:40> Uac: 220.000000
+<22.11.2009 12:57:40> Iac: 21733.000000
+<22.11.2009 12:57:40> Error reading input parameter at 257.
+<22.11.2009 12:57:40> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:45> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:46> Uac: 222.000000
+<22.11.2009 12:57:46> Iac: 23236.000000
+<22.11.2009 12:57:46> Error reading input parameter at 257.
+<22.11.2009 12:57:46> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:51> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:52> Uac: 223.000000
+<22.11.2009 12:57:52> Iac: 21580.000000
+<22.11.2009 12:57:52> Error reading input parameter at 257.
+<22.11.2009 12:57:52> Error: Could not read temperature from sunmeter
+<22.11.2009 12:57:57> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:57:58> Uac: 221.000000
+<22.11.2009 12:57:58> Iac: 20227.000000
+<22.11.2009 12:57:58> Error reading input parameter at 257.
+<22.11.2009 12:57:58> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:03> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:04> Uac: 235.000000
+<22.11.2009 12:58:04> Iac: 23457.000000
+<22.11.2009 12:58:04> Error reading input parameter at 257.
+<22.11.2009 12:58:04> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:09> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:10> Uac: 228.000000
+<22.11.2009 12:58:10> Iac: 22377.000000
+<22.11.2009 12:58:10> Error reading input parameter at 257.
+<22.11.2009 12:58:10> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:15> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:16> Uac: 228.000000
+<22.11.2009 12:58:16> Iac: 23119.000000
+<22.11.2009 12:58:16> Error reading input parameter at 257.
+<22.11.2009 12:58:16> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:21> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:22> Uac: 220.000000
+<22.11.2009 12:58:22> Iac: 21609.000000
+<22.11.2009 12:58:22> Error reading input parameter at 257.
+<22.11.2009 12:58:22> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:27> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:28> Uac: 232.000000
+<22.11.2009 12:58:28> Iac: 22653.000000
+<22.11.2009 12:58:28> Error reading input parameter at 257.
+<22.11.2009 12:58:28> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:33> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:35> Uac: 224.000000
+<22.11.2009 12:58:35> Iac: 19965.000000
+<22.11.2009 12:58:35> Error reading input parameter at 257.
+<22.11.2009 12:58:35> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:40> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:41> Uac: 219.000000
+<22.11.2009 12:58:41> Iac: 20044.000000
+<22.11.2009 12:58:41> Error reading input parameter at 257.
+<22.11.2009 12:58:41> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:46> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:47> Uac: 240.000000
+<22.11.2009 12:58:47> Iac: 20407.000000
+<22.11.2009 12:58:47> Error reading input parameter at 257.
+<22.11.2009 12:58:47> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:52> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:53> Uac: 236.000000
+<22.11.2009 12:58:53> Iac: 21896.000000
+<22.11.2009 12:58:53> Error reading input parameter at 257.
+<22.11.2009 12:58:53> Error: Could not read temperature from sunmeter
+<22.11.2009 12:58:58> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:58:59> Uac: 225.000000
+<22.11.2009 12:58:59> Iac: 23115.000000
+<22.11.2009 12:58:59> Error reading input parameter at 257.
+<22.11.2009 12:58:59> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:04> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:05> Uac: 238.000000
+<22.11.2009 12:59:05> Iac: 20983.000000
+<22.11.2009 12:59:05> Error reading input parameter at 257.
+<22.11.2009 12:59:05> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:10> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:11> Uac: 222.000000
+<22.11.2009 12:59:11> Iac: 21463.000000
+<22.11.2009 12:59:11> Error reading input parameter at 257.
+<22.11.2009 12:59:11> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:16> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:17> Uac: 234.000000
+<22.11.2009 12:59:17> Iac: 21879.000000
+<22.11.2009 12:59:17> Error reading input parameter at 257.
+<22.11.2009 12:59:17> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:22> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:23> Uac: 233.000000
+<22.11.2009 12:59:23> Iac: 24274.000000
+<22.11.2009 12:59:23> Error reading input parameter at 257.
+<22.11.2009 12:59:23> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:28> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:29> Uac: 226.000000
+<22.11.2009 12:59:29> Iac: 21639.000000
+<22.11.2009 12:59:29> Error reading input parameter at 257.
+<22.11.2009 12:59:29> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:34> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:35> Uac: 220.000000
+<22.11.2009 12:59:35> Iac: 24248.000000
+<22.11.2009 12:59:35> Error reading input parameter at 257.
+<22.11.2009 12:59:35> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:40> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:41> Uac: 239.000000
+<22.11.2009 12:59:41> Iac: 23942.000000
+<22.11.2009 12:59:41> Error reading input parameter at 257.
+<22.11.2009 12:59:41> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:46> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:47> Uac: 226.000000
+<22.11.2009 12:59:47> Iac: 22410.000000
+<22.11.2009 12:59:47> Error reading input parameter at 257.
+<22.11.2009 12:59:47> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:52> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:53> Uac: 239.000000
+<22.11.2009 12:59:53> Iac: 24168.000000
+<22.11.2009 12:59:53> Error reading input parameter at 257.
+<22.11.2009 12:59:53> Error: Could not read temperature from sunmeter
+<22.11.2009 12:59:58> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 12:59:59> Uac: 239.000000
+<22.11.2009 12:59:59> Iac: 23697.000000
+<22.11.2009 12:59:59> Error reading input parameter at 257.
+<22.11.2009 12:59:59> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:04> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:00:05> Uac: 226.000000
+<22.11.2009 13:00:05> Iac: 23858.000000
+<22.11.2009 13:00:05> Error reading input parameter at 257.
+<22.11.2009 13:00:05> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:10> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:00:11> Uac: 226.000000
+<22.11.2009 13:00:11> Iac: 22018.000000
+<22.11.2009 13:00:11> Error reading input parameter at 257.
+<22.11.2009 13:00:11> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:16> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:00:17> Uac: 239.000000
+<22.11.2009 13:00:17> Iac: 23935.000000
+<22.11.2009 13:00:17> Error reading input parameter at 257.
+<22.11.2009 13:00:17> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:22> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:00:24> Uac: 233.000000
+<22.11.2009 13:00:24> Iac: 24109.000000
+<22.11.2009 13:00:24> Error reading input parameter at 257.
+<22.11.2009 13:00:24> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:29> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:00:30> Uac: 241.000000
+<22.11.2009 13:00:30> Iac: 23284.000000
+<22.11.2009 13:00:30> Error reading input parameter at 257.
+<22.11.2009 13:00:30> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:37> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:00:46> Uac: 236.000000
+<22.11.2009 13:00:46> Iac: 20751.000000
+<22.11.2009 13:00:47> Error reading input parameter at 257.
+<22.11.2009 13:00:47> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:52> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:00:53> Uac: 227.000000
+<22.11.2009 13:00:53> Iac: 20133.000000
+<22.11.2009 13:00:54> Error reading input parameter at 257.
+<22.11.2009 13:00:54> Error: Could not read temperature from sunmeter
+<22.11.2009 13:00:59> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:01:00> Uac: 219.000000
+<22.11.2009 13:01:00> Iac: 23464.000000
+<22.11.2009 13:01:00> Error reading input parameter at 257.
+<22.11.2009 13:01:00> Error: Could not read temperature from sunmeter
+<22.11.2009 13:01:05> Wechselrichter abfragen und in SQLite schreiben
+<22.11.2009 13:01:06> Uac: 233.000000
+<22.11.2009 13:01:06> Iac: 21191.000000
+<22.11.2009 13:01:06> Error reading input parameter at 257.
+<22.11.2009 13:01:06> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:04:18> Uac: 231.000000
+<24.11.2009 13:04:18> Iac: 20584.000000
+<24.11.2009 13:04:18> Error reading input parameter at 257.
+<24.11.2009 13:04:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:04:24> Uac: 223.000000
+<24.11.2009 13:04:24> Iac: 23100.000000
+<24.11.2009 13:04:24> Error reading input parameter at 257.
+<24.11.2009 13:04:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:04:30> Uac: 237.000000
+<24.11.2009 13:04:30> Iac: 23701.000000
+<24.11.2009 13:04:30> Error reading input parameter at 257.
+<24.11.2009 13:04:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:04:36> Uac: 232.000000
+<24.11.2009 13:04:36> Iac: 22832.000000
+<24.11.2009 13:04:36> Error reading input parameter at 257.
+<24.11.2009 13:04:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:04:42> Uac: 229.000000
+<24.11.2009 13:04:42> Iac: 22429.000000
+<24.11.2009 13:04:42> Error reading input parameter at 257.
+<24.11.2009 13:04:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:04:48> Uac: 224.000000
+<24.11.2009 13:04:48> Iac: 22435.000000
+<24.11.2009 13:04:48> Error reading input parameter at 257.
+<24.11.2009 13:04:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:04:54> Uac: 224.000000
+<24.11.2009 13:04:54> Iac: 21774.000000
+<24.11.2009 13:04:54> Error reading input parameter at 257.
+<24.11.2009 13:04:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:04:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:00> Uac: 235.000000
+<24.11.2009 13:05:00> Iac: 21113.000000
+<24.11.2009 13:05:00> Error reading input parameter at 257.
+<24.11.2009 13:05:00> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:05> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:07> Uac: 231.000000
+<24.11.2009 13:05:07> Iac: 20650.000000
+<24.11.2009 13:05:07> Error reading input parameter at 257.
+<24.11.2009 13:05:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:13> Uac: 238.000000
+<24.11.2009 13:05:13> Iac: 21700.000000
+<24.11.2009 13:05:13> Error reading input parameter at 257.
+<24.11.2009 13:05:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:18> Uac: 233.000000
+<24.11.2009 13:05:18> Iac: 22602.000000
+<24.11.2009 13:05:18> Error reading input parameter at 257.
+<24.11.2009 13:05:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:25> Uac: 221.000000
+<24.11.2009 13:05:25> Iac: 24002.000000
+<24.11.2009 13:05:25> Error reading input parameter at 257.
+<24.11.2009 13:05:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:31> Uac: 234.000000
+<24.11.2009 13:05:31> Iac: 20153.000000
+<24.11.2009 13:05:31> Error reading input parameter at 257.
+<24.11.2009 13:05:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:37> Uac: 221.000000
+<24.11.2009 13:05:37> Iac: 23044.000000
+<24.11.2009 13:05:37> Error reading input parameter at 257.
+<24.11.2009 13:05:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:43> Uac: 223.000000
+<24.11.2009 13:05:43> Iac: 20112.000000
+<24.11.2009 13:05:43> Error reading input parameter at 257.
+<24.11.2009 13:05:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:49> Uac: 224.000000
+<24.11.2009 13:05:49> Iac: 20513.000000
+<24.11.2009 13:05:49> Error reading input parameter at 257.
+<24.11.2009 13:05:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:05:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:05:55> Uac: 241.000000
+<24.11.2009 13:05:55> Iac: 23588.000000
+<24.11.2009 13:05:55> Error reading input parameter at 257.
+<24.11.2009 13:05:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:01> Uac: 227.000000
+<24.11.2009 13:06:01> Iac: 21430.000000
+<24.11.2009 13:06:02> Error reading input parameter at 257.
+<24.11.2009 13:06:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:08> Uac: 235.000000
+<24.11.2009 13:06:08> Iac: 20163.000000
+<24.11.2009 13:06:08> Error reading input parameter at 257.
+<24.11.2009 13:06:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:14> Uac: 240.000000
+<24.11.2009 13:06:14> Iac: 24375.000000
+<24.11.2009 13:06:14> Error reading input parameter at 257.
+<24.11.2009 13:06:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:20> Uac: 233.000000
+<24.11.2009 13:06:20> Iac: 23656.000000
+<24.11.2009 13:06:20> Error reading input parameter at 257.
+<24.11.2009 13:06:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:26> Uac: 233.000000
+<24.11.2009 13:06:26> Iac: 22277.000000
+<24.11.2009 13:06:26> Error reading input parameter at 257.
+<24.11.2009 13:06:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:32> Uac: 229.000000
+<24.11.2009 13:06:32> Iac: 23545.000000
+<24.11.2009 13:06:32> Error reading input parameter at 257.
+<24.11.2009 13:06:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:38> Uac: 234.000000
+<24.11.2009 13:06:38> Iac: 23928.000000
+<24.11.2009 13:06:38> Error reading input parameter at 257.
+<24.11.2009 13:06:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:44> Uac: 239.000000
+<24.11.2009 13:06:44> Iac: 23842.000000
+<24.11.2009 13:06:44> Error reading input parameter at 257.
+<24.11.2009 13:06:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:50> Uac: 231.000000
+<24.11.2009 13:06:50> Iac: 23440.000000
+<24.11.2009 13:06:50> Error reading input parameter at 257.
+<24.11.2009 13:06:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:06:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:06:56> Uac: 232.000000
+<24.11.2009 13:06:56> Iac: 20617.000000
+<24.11.2009 13:06:56> Error reading input parameter at 257.
+<24.11.2009 13:06:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:02> Uac: 231.000000
+<24.11.2009 13:07:02> Iac: 23393.000000
+<24.11.2009 13:07:02> Error reading input parameter at 257.
+<24.11.2009 13:07:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:08> Uac: 234.000000
+<24.11.2009 13:07:08> Iac: 22325.000000
+<24.11.2009 13:07:08> Error reading input parameter at 257.
+<24.11.2009 13:07:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:14> Uac: 228.000000
+<24.11.2009 13:07:14> Iac: 24323.000000
+<24.11.2009 13:07:14> Error reading input parameter at 257.
+<24.11.2009 13:07:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:21> Uac: 219.000000
+<24.11.2009 13:07:21> Iac: 23596.000000
+<24.11.2009 13:07:21> Error reading input parameter at 257.
+<24.11.2009 13:07:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:27> Uac: 219.000000
+<24.11.2009 13:07:27> Iac: 22717.000000
+<24.11.2009 13:07:27> Error reading input parameter at 257.
+<24.11.2009 13:07:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:33> Uac: 228.000000
+<24.11.2009 13:07:33> Iac: 21046.000000
+<24.11.2009 13:07:33> Error reading input parameter at 257.
+<24.11.2009 13:07:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:39> Uac: 228.000000
+<24.11.2009 13:07:39> Iac: 20142.000000
+<24.11.2009 13:07:39> Error reading input parameter at 257.
+<24.11.2009 13:07:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:46> Uac: 228.000000
+<24.11.2009 13:07:46> Iac: 22279.000000
+<24.11.2009 13:07:46> Error reading input parameter at 257.
+<24.11.2009 13:07:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:52> Uac: 241.000000
+<24.11.2009 13:07:52> Iac: 23566.000000
+<24.11.2009 13:07:52> Error reading input parameter at 257.
+<24.11.2009 13:07:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:07:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:07:58> Uac: 225.000000
+<24.11.2009 13:07:58> Iac: 21389.000000
+<24.11.2009 13:07:58> Error reading input parameter at 257.
+<24.11.2009 13:07:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:04> Uac: 226.000000
+<24.11.2009 13:08:04> Iac: 20462.000000
+<24.11.2009 13:08:04> Error reading input parameter at 257.
+<24.11.2009 13:08:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:10> Uac: 232.000000
+<24.11.2009 13:08:10> Iac: 21934.000000
+<24.11.2009 13:08:10> Error reading input parameter at 257.
+<24.11.2009 13:08:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:16> Uac: 228.000000
+<24.11.2009 13:08:16> Iac: 23219.000000
+<24.11.2009 13:08:16> Error reading input parameter at 257.
+<24.11.2009 13:08:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:22> Uac: 239.000000
+<24.11.2009 13:08:22> Iac: 21184.000000
+<24.11.2009 13:08:22> Error reading input parameter at 257.
+<24.11.2009 13:08:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:28> Uac: 231.000000
+<24.11.2009 13:08:28> Iac: 21117.000000
+<24.11.2009 13:08:28> Error reading input parameter at 257.
+<24.11.2009 13:08:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:34> Uac: 237.000000
+<24.11.2009 13:08:34> Iac: 23642.000000
+<24.11.2009 13:08:34> Error reading input parameter at 257.
+<24.11.2009 13:08:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:40> Uac: 241.000000
+<24.11.2009 13:08:40> Iac: 20217.000000
+<24.11.2009 13:08:40> Error reading input parameter at 257.
+<24.11.2009 13:08:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:47> Uac: 241.000000
+<24.11.2009 13:08:47> Iac: 21723.000000
+<24.11.2009 13:08:47> Error reading input parameter at 257.
+<24.11.2009 13:08:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:53> Uac: 227.000000
+<24.11.2009 13:08:53> Iac: 23141.000000
+<24.11.2009 13:08:53> Error reading input parameter at 257.
+<24.11.2009 13:08:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:08:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:08:59> Uac: 227.000000
+<24.11.2009 13:08:59> Iac: 24013.000000
+<24.11.2009 13:08:59> Error reading input parameter at 257.
+<24.11.2009 13:08:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:05> Uac: 228.000000
+<24.11.2009 13:09:05> Iac: 22111.000000
+<24.11.2009 13:09:05> Error reading input parameter at 257.
+<24.11.2009 13:09:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:11> Uac: 237.000000
+<24.11.2009 13:09:11> Iac: 23832.000000
+<24.11.2009 13:09:11> Error reading input parameter at 257.
+<24.11.2009 13:09:11> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:17> Uac: 229.000000
+<24.11.2009 13:09:17> Iac: 23835.000000
+<24.11.2009 13:09:17> Error reading input parameter at 257.
+<24.11.2009 13:09:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:22> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:23> Uac: 232.000000
+<24.11.2009 13:09:23> Iac: 22600.000000
+<24.11.2009 13:09:23> Error reading input parameter at 257.
+<24.11.2009 13:09:23> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:29> Uac: 225.000000
+<24.11.2009 13:09:29> Iac: 22669.000000
+<24.11.2009 13:09:29> Error reading input parameter at 257.
+<24.11.2009 13:09:29> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:35> Uac: 224.000000
+<24.11.2009 13:09:35> Iac: 22937.000000
+<24.11.2009 13:09:35> Error reading input parameter at 257.
+<24.11.2009 13:09:35> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:41> Uac: 228.000000
+<24.11.2009 13:09:41> Iac: 20024.000000
+<24.11.2009 13:09:41> Error reading input parameter at 257.
+<24.11.2009 13:09:41> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:46> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:47> Uac: 224.000000
+<24.11.2009 13:09:47> Iac: 21602.000000
+<24.11.2009 13:09:47> Error reading input parameter at 257.
+<24.11.2009 13:09:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:53> Uac: 223.000000
+<24.11.2009 13:09:53> Iac: 23451.000000
+<24.11.2009 13:09:53> Error reading input parameter at 257.
+<24.11.2009 13:09:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:09:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:09:59> Uac: 234.000000
+<24.11.2009 13:09:59> Iac: 20242.000000
+<24.11.2009 13:09:59> Error reading input parameter at 257.
+<24.11.2009 13:09:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:05> Uac: 241.000000
+<24.11.2009 13:10:05> Iac: 22803.000000
+<24.11.2009 13:10:05> Error reading input parameter at 257.
+<24.11.2009 13:10:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:12> Uac: 230.000000
+<24.11.2009 13:10:12> Iac: 21665.000000
+<24.11.2009 13:10:12> Error reading input parameter at 257.
+<24.11.2009 13:10:12> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:18> Uac: 224.000000
+<24.11.2009 13:10:18> Iac: 22283.000000
+<24.11.2009 13:10:18> Error reading input parameter at 257.
+<24.11.2009 13:10:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:24> Uac: 223.000000
+<24.11.2009 13:10:24> Iac: 24031.000000
+<24.11.2009 13:10:24> Error reading input parameter at 257.
+<24.11.2009 13:10:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:30> Uac: 227.000000
+<24.11.2009 13:10:30> Iac: 24235.000000
+<24.11.2009 13:10:30> Error reading input parameter at 257.
+<24.11.2009 13:10:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:36> Uac: 241.000000
+<24.11.2009 13:10:36> Iac: 24157.000000
+<24.11.2009 13:10:36> Error reading input parameter at 257.
+<24.11.2009 13:10:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:42> Uac: 223.000000
+<24.11.2009 13:10:42> Iac: 19995.000000
+<24.11.2009 13:10:42> Error reading input parameter at 257.
+<24.11.2009 13:10:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:48> Uac: 238.000000
+<24.11.2009 13:10:48> Iac: 23691.000000
+<24.11.2009 13:10:48> Error reading input parameter at 257.
+<24.11.2009 13:10:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:10:54> Uac: 236.000000
+<24.11.2009 13:10:54> Iac: 23290.000000
+<24.11.2009 13:10:54> Error reading input parameter at 257.
+<24.11.2009 13:10:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:10:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:00> Uac: 232.000000
+<24.11.2009 13:11:00> Iac: 22042.000000
+<24.11.2009 13:11:00> Error reading input parameter at 257.
+<24.11.2009 13:11:00> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:05> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:06> Uac: 231.000000
+<24.11.2009 13:11:06> Iac: 23439.000000
+<24.11.2009 13:11:06> Error reading input parameter at 257.
+<24.11.2009 13:11:06> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:11> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:12> Uac: 237.000000
+<24.11.2009 13:11:12> Iac: 23658.000000
+<24.11.2009 13:11:12> Error reading input parameter at 257.
+<24.11.2009 13:11:12> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:18> Uac: 223.000000
+<24.11.2009 13:11:18> Iac: 21196.000000
+<24.11.2009 13:11:18> Error reading input parameter at 257.
+<24.11.2009 13:11:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:24> Uac: 237.000000
+<24.11.2009 13:11:24> Iac: 22707.000000
+<24.11.2009 13:11:24> Error reading input parameter at 257.
+<24.11.2009 13:11:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:31> Uac: 226.000000
+<24.11.2009 13:11:31> Iac: 22197.000000
+<24.11.2009 13:11:31> Error reading input parameter at 257.
+<24.11.2009 13:11:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:37> Uac: 222.000000
+<24.11.2009 13:11:37> Iac: 21598.000000
+<24.11.2009 13:11:37> Error reading input parameter at 257.
+<24.11.2009 13:11:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:43> Uac: 240.000000
+<24.11.2009 13:11:43> Iac: 22428.000000
+<24.11.2009 13:11:43> Error reading input parameter at 257.
+<24.11.2009 13:11:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:49> Uac: 231.000000
+<24.11.2009 13:11:49> Iac: 21648.000000
+<24.11.2009 13:11:49> Error reading input parameter at 257.
+<24.11.2009 13:11:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:11:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:11:55> Uac: 226.000000
+<24.11.2009 13:11:55> Iac: 24028.000000
+<24.11.2009 13:11:55> Error reading input parameter at 257.
+<24.11.2009 13:11:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:01> Uac: 230.000000
+<24.11.2009 13:12:01> Iac: 23135.000000
+<24.11.2009 13:12:01> Error reading input parameter at 257.
+<24.11.2009 13:12:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:07> Uac: 239.000000
+<24.11.2009 13:12:07> Iac: 21538.000000
+<24.11.2009 13:12:07> Error reading input parameter at 257.
+<24.11.2009 13:12:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:13> Uac: 219.000000
+<24.11.2009 13:12:13> Iac: 23822.000000
+<24.11.2009 13:12:13> Error reading input parameter at 257.
+<24.11.2009 13:12:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:19> Uac: 241.000000
+<24.11.2009 13:12:19> Iac: 24218.000000
+<24.11.2009 13:12:19> Error reading input parameter at 257.
+<24.11.2009 13:12:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:25> Uac: 226.000000
+<24.11.2009 13:12:25> Iac: 23830.000000
+<24.11.2009 13:12:25> Error reading input parameter at 257.
+<24.11.2009 13:12:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:31> Uac: 221.000000
+<24.11.2009 13:12:31> Iac: 23604.000000
+<24.11.2009 13:12:31> Error reading input parameter at 257.
+<24.11.2009 13:12:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:37> Uac: 228.000000
+<24.11.2009 13:12:37> Iac: 24354.000000
+<24.11.2009 13:12:37> Error reading input parameter at 257.
+<24.11.2009 13:12:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:43> Uac: 240.000000
+<24.11.2009 13:12:43> Iac: 23867.000000
+<24.11.2009 13:12:43> Error reading input parameter at 257.
+<24.11.2009 13:12:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:49> Uac: 220.000000
+<24.11.2009 13:12:49> Iac: 23125.000000
+<24.11.2009 13:12:49> Error reading input parameter at 257.
+<24.11.2009 13:12:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:12:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:12:55> Uac: 222.000000
+<24.11.2009 13:12:55> Iac: 22685.000000
+<24.11.2009 13:12:55> Error reading input parameter at 257.
+<24.11.2009 13:12:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:01> Uac: 223.000000
+<24.11.2009 13:13:01> Iac: 21814.000000
+<24.11.2009 13:13:01> Error reading input parameter at 257.
+<24.11.2009 13:13:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:07> Uac: 222.000000
+<24.11.2009 13:13:07> Iac: 23604.000000
+<24.11.2009 13:13:07> Error reading input parameter at 257.
+<24.11.2009 13:13:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:14> Uac: 221.000000
+<24.11.2009 13:13:14> Iac: 23516.000000
+<24.11.2009 13:13:14> Error reading input parameter at 257.
+<24.11.2009 13:13:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:19> Uac: 219.000000
+<24.11.2009 13:13:19> Iac: 22560.000000
+<24.11.2009 13:13:19> Error reading input parameter at 257.
+<24.11.2009 13:13:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:26> Uac: 231.000000
+<24.11.2009 13:13:26> Iac: 20070.000000
+<24.11.2009 13:13:26> Error reading input parameter at 257.
+<24.11.2009 13:13:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:32> Uac: 232.000000
+<24.11.2009 13:13:32> Iac: 20765.000000
+<24.11.2009 13:13:32> Error reading input parameter at 257.
+<24.11.2009 13:13:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:38> Uac: 231.000000
+<24.11.2009 13:13:38> Iac: 23791.000000
+<24.11.2009 13:13:38> Error reading input parameter at 257.
+<24.11.2009 13:13:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:44> Uac: 240.000000
+<24.11.2009 13:13:44> Iac: 24309.000000
+<24.11.2009 13:13:44> Error reading input parameter at 257.
+<24.11.2009 13:13:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:50> Uac: 231.000000
+<24.11.2009 13:13:50> Iac: 22344.000000
+<24.11.2009 13:13:50> Error reading input parameter at 257.
+<24.11.2009 13:13:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:13:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:13:56> Uac: 234.000000
+<24.11.2009 13:13:56> Iac: 21668.000000
+<24.11.2009 13:13:56> Error reading input parameter at 257.
+<24.11.2009 13:13:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:02> Uac: 239.000000
+<24.11.2009 13:14:02> Iac: 20415.000000
+<24.11.2009 13:14:02> Error reading input parameter at 257.
+<24.11.2009 13:14:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:08> Uac: 219.000000
+<24.11.2009 13:14:08> Iac: 20032.000000
+<24.11.2009 13:14:08> Error reading input parameter at 257.
+<24.11.2009 13:14:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:14> Uac: 220.000000
+<24.11.2009 13:14:14> Iac: 20569.000000
+<24.11.2009 13:14:14> Error reading input parameter at 257.
+<24.11.2009 13:14:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:20> Uac: 227.000000
+<24.11.2009 13:14:20> Iac: 21661.000000
+<24.11.2009 13:14:20> Error reading input parameter at 257.
+<24.11.2009 13:14:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:26> Uac: 233.000000
+<24.11.2009 13:14:26> Iac: 21575.000000
+<24.11.2009 13:14:26> Error reading input parameter at 257.
+<24.11.2009 13:14:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:32> Uac: 222.000000
+<24.11.2009 13:14:32> Iac: 22201.000000
+<24.11.2009 13:14:32> Error reading input parameter at 257.
+<24.11.2009 13:14:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:38> Uac: 229.000000
+<24.11.2009 13:14:38> Iac: 23279.000000
+<24.11.2009 13:14:38> Error reading input parameter at 257.
+<24.11.2009 13:14:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:44> Uac: 238.000000
+<24.11.2009 13:14:44> Iac: 21451.000000
+<24.11.2009 13:14:44> Error reading input parameter at 257.
+<24.11.2009 13:14:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:50> Uac: 222.000000
+<24.11.2009 13:14:50> Iac: 22937.000000
+<24.11.2009 13:14:50> Error reading input parameter at 257.
+<24.11.2009 13:14:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:14:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:14:56> Uac: 220.000000
+<24.11.2009 13:14:56> Iac: 23728.000000
+<24.11.2009 13:14:56> Error reading input parameter at 257.
+<24.11.2009 13:14:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:02> Uac: 232.000000
+<24.11.2009 13:15:02> Iac: 24213.000000
+<24.11.2009 13:15:02> Error reading input parameter at 257.
+<24.11.2009 13:15:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:09> Uac: 223.000000
+<24.11.2009 13:15:09> Iac: 21908.000000
+<24.11.2009 13:15:09> Error reading input parameter at 257.
+<24.11.2009 13:15:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:15> Uac: 232.000000
+<24.11.2009 13:15:15> Iac: 23478.000000
+<24.11.2009 13:15:15> Error reading input parameter at 257.
+<24.11.2009 13:15:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:21> Uac: 232.000000
+<24.11.2009 13:15:21> Iac: 21532.000000
+<24.11.2009 13:15:21> Error reading input parameter at 257.
+<24.11.2009 13:15:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:27> Uac: 224.000000
+<24.11.2009 13:15:27> Iac: 23858.000000
+<24.11.2009 13:15:27> Error reading input parameter at 257.
+<24.11.2009 13:15:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:33> Uac: 235.000000
+<24.11.2009 13:15:33> Iac: 23463.000000
+<24.11.2009 13:15:33> Error reading input parameter at 257.
+<24.11.2009 13:15:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:39> Uac: 229.000000
+<24.11.2009 13:15:39> Iac: 21414.000000
+<24.11.2009 13:15:39> Error reading input parameter at 257.
+<24.11.2009 13:15:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:45> Uac: 232.000000
+<24.11.2009 13:15:45> Iac: 21310.000000
+<24.11.2009 13:15:45> Error reading input parameter at 257.
+<24.11.2009 13:15:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:51> Uac: 238.000000
+<24.11.2009 13:15:51> Iac: 23277.000000
+<24.11.2009 13:15:51> Error reading input parameter at 257.
+<24.11.2009 13:15:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:15:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:15:57> Uac: 219.000000
+<24.11.2009 13:15:57> Iac: 22248.000000
+<24.11.2009 13:15:57> Error reading input parameter at 257.
+<24.11.2009 13:15:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:03> Uac: 228.000000
+<24.11.2009 13:16:03> Iac: 21000.000000
+<24.11.2009 13:16:03> Error reading input parameter at 257.
+<24.11.2009 13:16:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:09> Uac: 219.000000
+<24.11.2009 13:16:09> Iac: 22894.000000
+<24.11.2009 13:16:09> Error reading input parameter at 257.
+<24.11.2009 13:16:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:15> Uac: 226.000000
+<24.11.2009 13:16:15> Iac: 23417.000000
+<24.11.2009 13:16:15> Error reading input parameter at 257.
+<24.11.2009 13:16:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:21> Uac: 225.000000
+<24.11.2009 13:16:21> Iac: 20555.000000
+<24.11.2009 13:16:21> Error reading input parameter at 257.
+<24.11.2009 13:16:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:27> Uac: 231.000000
+<24.11.2009 13:16:27> Iac: 23912.000000
+<24.11.2009 13:16:27> Error reading input parameter at 257.
+<24.11.2009 13:16:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:33> Uac: 237.000000
+<24.11.2009 13:16:33> Iac: 22432.000000
+<24.11.2009 13:16:33> Error reading input parameter at 257.
+<24.11.2009 13:16:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:39> Uac: 225.000000
+<24.11.2009 13:16:39> Iac: 22389.000000
+<24.11.2009 13:16:39> Error reading input parameter at 257.
+<24.11.2009 13:16:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:45> Uac: 223.000000
+<24.11.2009 13:16:45> Iac: 21045.000000
+<24.11.2009 13:16:45> Error reading input parameter at 257.
+<24.11.2009 13:16:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:52> Uac: 233.000000
+<24.11.2009 13:16:52> Iac: 22212.000000
+<24.11.2009 13:16:52> Error reading input parameter at 257.
+<24.11.2009 13:16:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:16:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:16:58> Uac: 239.000000
+<24.11.2009 13:16:58> Iac: 24291.000000
+<24.11.2009 13:16:58> Error reading input parameter at 257.
+<24.11.2009 13:16:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:04> Uac: 241.000000
+<24.11.2009 13:17:04> Iac: 20890.000000
+<24.11.2009 13:17:04> Error reading input parameter at 257.
+<24.11.2009 13:17:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:10> Uac: 226.000000
+<24.11.2009 13:17:10> Iac: 20976.000000
+<24.11.2009 13:17:10> Error reading input parameter at 257.
+<24.11.2009 13:17:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:16> Uac: 228.000000
+<24.11.2009 13:17:16> Iac: 20777.000000
+<24.11.2009 13:17:16> Error reading input parameter at 257.
+<24.11.2009 13:17:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:22> Uac: 227.000000
+<24.11.2009 13:17:22> Iac: 20681.000000
+<24.11.2009 13:17:22> Error reading input parameter at 257.
+<24.11.2009 13:17:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:28> Uac: 222.000000
+<24.11.2009 13:17:28> Iac: 24358.000000
+<24.11.2009 13:17:28> Error reading input parameter at 257.
+<24.11.2009 13:17:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:34> Uac: 237.000000
+<24.11.2009 13:17:34> Iac: 22473.000000
+<24.11.2009 13:17:34> Error reading input parameter at 257.
+<24.11.2009 13:17:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:40> Uac: 238.000000
+<24.11.2009 13:17:40> Iac: 24266.000000
+<24.11.2009 13:17:40> Error reading input parameter at 257.
+<24.11.2009 13:17:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:46> Uac: 240.000000
+<24.11.2009 13:17:46> Iac: 21310.000000
+<24.11.2009 13:17:46> Error reading input parameter at 257.
+<24.11.2009 13:17:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:52> Uac: 233.000000
+<24.11.2009 13:17:52> Iac: 22889.000000
+<24.11.2009 13:17:52> Error reading input parameter at 257.
+<24.11.2009 13:17:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:17:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:17:58> Uac: 223.000000
+<24.11.2009 13:17:58> Iac: 23321.000000
+<24.11.2009 13:17:58> Error reading input parameter at 257.
+<24.11.2009 13:17:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:04> Uac: 221.000000
+<24.11.2009 13:18:04> Iac: 20210.000000
+<24.11.2009 13:18:04> Error reading input parameter at 257.
+<24.11.2009 13:18:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:10> Uac: 232.000000
+<24.11.2009 13:18:10> Iac: 20039.000000
+<24.11.2009 13:18:10> Error reading input parameter at 257.
+<24.11.2009 13:18:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:16> Uac: 226.000000
+<24.11.2009 13:18:16> Iac: 20635.000000
+<24.11.2009 13:18:16> Error reading input parameter at 257.
+<24.11.2009 13:18:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:22> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:23> Uac: 232.000000
+<24.11.2009 13:18:23> Iac: 22643.000000
+<24.11.2009 13:18:23> Error reading input parameter at 257.
+<24.11.2009 13:18:23> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:29> Uac: 231.000000
+<24.11.2009 13:18:29> Iac: 22594.000000
+<24.11.2009 13:18:29> Error reading input parameter at 257.
+<24.11.2009 13:18:29> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:36> Uac: 231.000000
+<24.11.2009 13:18:36> Iac: 24249.000000
+<24.11.2009 13:18:36> Error reading input parameter at 257.
+<24.11.2009 13:18:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:42> Uac: 219.000000
+<24.11.2009 13:18:42> Iac: 20576.000000
+<24.11.2009 13:18:42> Error reading input parameter at 257.
+<24.11.2009 13:18:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:48> Uac: 237.000000
+<24.11.2009 13:18:48> Iac: 23444.000000
+<24.11.2009 13:18:48> Error reading input parameter at 257.
+<24.11.2009 13:18:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:18:54> Uac: 231.000000
+<24.11.2009 13:18:54> Iac: 23285.000000
+<24.11.2009 13:18:54> Error reading input parameter at 257.
+<24.11.2009 13:18:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:18:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:00> Uac: 219.000000
+<24.11.2009 13:19:00> Iac: 23269.000000
+<24.11.2009 13:19:00> Error reading input parameter at 257.
+<24.11.2009 13:19:00> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:05> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:06> Uac: 226.000000
+<24.11.2009 13:19:06> Iac: 20291.000000
+<24.11.2009 13:19:06> Error reading input parameter at 257.
+<24.11.2009 13:19:06> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:11> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:12> Uac: 240.000000
+<24.11.2009 13:19:12> Iac: 20993.000000
+<24.11.2009 13:19:12> Error reading input parameter at 257.
+<24.11.2009 13:19:12> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:18> Uac: 228.000000
+<24.11.2009 13:19:18> Iac: 21133.000000
+<24.11.2009 13:19:18> Error reading input parameter at 257.
+<24.11.2009 13:19:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:24> Uac: 235.000000
+<24.11.2009 13:19:24> Iac: 23425.000000
+<24.11.2009 13:19:24> Error reading input parameter at 257.
+<24.11.2009 13:19:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:30> Uac: 228.000000
+<24.11.2009 13:19:30> Iac: 20751.000000
+<24.11.2009 13:19:30> Error reading input parameter at 257.
+<24.11.2009 13:19:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:36> Uac: 238.000000
+<24.11.2009 13:19:36> Iac: 23607.000000
+<24.11.2009 13:19:36> Error reading input parameter at 257.
+<24.11.2009 13:19:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:42> Uac: 235.000000
+<24.11.2009 13:19:42> Iac: 20828.000000
+<24.11.2009 13:19:42> Error reading input parameter at 257.
+<24.11.2009 13:19:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:48> Uac: 226.000000
+<24.11.2009 13:19:48> Iac: 22630.000000
+<24.11.2009 13:19:48> Error reading input parameter at 257.
+<24.11.2009 13:19:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:19:54> Uac: 236.000000
+<24.11.2009 13:19:54> Iac: 23929.000000
+<24.11.2009 13:19:54> Error reading input parameter at 257.
+<24.11.2009 13:19:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:19:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:01> Uac: 230.000000
+<24.11.2009 13:20:01> Iac: 21162.000000
+<24.11.2009 13:20:01> Error reading input parameter at 257.
+<24.11.2009 13:20:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:07> Uac: 225.000000
+<24.11.2009 13:20:07> Iac: 22326.000000
+<24.11.2009 13:20:07> Error reading input parameter at 257.
+<24.11.2009 13:20:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:13> Uac: 223.000000
+<24.11.2009 13:20:13> Iac: 21228.000000
+<24.11.2009 13:20:13> Error reading input parameter at 257.
+<24.11.2009 13:20:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:19> Uac: 231.000000
+<24.11.2009 13:20:19> Iac: 22608.000000
+<24.11.2009 13:20:19> Error reading input parameter at 257.
+<24.11.2009 13:20:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:25> Uac: 226.000000
+<24.11.2009 13:20:25> Iac: 24148.000000
+<24.11.2009 13:20:25> Error reading input parameter at 257.
+<24.11.2009 13:20:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:31> Uac: 222.000000
+<24.11.2009 13:20:31> Iac: 20279.000000
+<24.11.2009 13:20:31> Error reading input parameter at 257.
+<24.11.2009 13:20:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:37> Uac: 236.000000
+<24.11.2009 13:20:37> Iac: 21159.000000
+<24.11.2009 13:20:37> Error reading input parameter at 257.
+<24.11.2009 13:20:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:43> Uac: 233.000000
+<24.11.2009 13:20:43> Iac: 22994.000000
+<24.11.2009 13:20:43> Error reading input parameter at 257.
+<24.11.2009 13:20:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:49> Uac: 226.000000
+<24.11.2009 13:20:49> Iac: 22102.000000
+<24.11.2009 13:20:49> Error reading input parameter at 257.
+<24.11.2009 13:20:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:20:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:20:55> Uac: 228.000000
+<24.11.2009 13:20:55> Iac: 21081.000000
+<24.11.2009 13:20:55> Error reading input parameter at 257.
+<24.11.2009 13:20:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:01> Uac: 223.000000
+<24.11.2009 13:21:01> Iac: 20016.000000
+<24.11.2009 13:21:01> Error reading input parameter at 257.
+<24.11.2009 13:21:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:07> Uac: 221.000000
+<24.11.2009 13:21:07> Iac: 23406.000000
+<24.11.2009 13:21:07> Error reading input parameter at 257.
+<24.11.2009 13:21:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:13> Uac: 222.000000
+<24.11.2009 13:21:13> Iac: 23386.000000
+<24.11.2009 13:21:13> Error reading input parameter at 257.
+<24.11.2009 13:21:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:19> Uac: 222.000000
+<24.11.2009 13:21:19> Iac: 23067.000000
+<24.11.2009 13:21:19> Error reading input parameter at 257.
+<24.11.2009 13:21:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:25> Uac: 224.000000
+<24.11.2009 13:21:25> Iac: 20691.000000
+<24.11.2009 13:21:25> Error reading input parameter at 257.
+<24.11.2009 13:21:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:31> Uac: 224.000000
+<24.11.2009 13:21:31> Iac: 21781.000000
+<24.11.2009 13:21:31> Error reading input parameter at 257.
+<24.11.2009 13:21:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:37> Uac: 229.000000
+<24.11.2009 13:21:37> Iac: 23502.000000
+<24.11.2009 13:21:37> Error reading input parameter at 257.
+<24.11.2009 13:21:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:43> Uac: 221.000000
+<24.11.2009 13:21:43> Iac: 23589.000000
+<24.11.2009 13:21:43> Error reading input parameter at 257.
+<24.11.2009 13:21:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:49> Uac: 233.000000
+<24.11.2009 13:21:49> Iac: 20107.000000
+<24.11.2009 13:21:49> Error reading input parameter at 257.
+<24.11.2009 13:21:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:21:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:21:56> Uac: 221.000000
+<24.11.2009 13:21:56> Iac: 22064.000000
+<24.11.2009 13:21:56> Error reading input parameter at 257.
+<24.11.2009 13:21:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:02> Uac: 222.000000
+<24.11.2009 13:22:02> Iac: 21556.000000
+<24.11.2009 13:22:02> Error reading input parameter at 257.
+<24.11.2009 13:22:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:08> Uac: 233.000000
+<24.11.2009 13:22:08> Iac: 20507.000000
+<24.11.2009 13:22:08> Error reading input parameter at 257.
+<24.11.2009 13:22:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:14> Uac: 230.000000
+<24.11.2009 13:22:14> Iac: 20391.000000
+<24.11.2009 13:22:14> Error reading input parameter at 257.
+<24.11.2009 13:22:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:20> Uac: 237.000000
+<24.11.2009 13:22:20> Iac: 22943.000000
+<24.11.2009 13:22:20> Error reading input parameter at 257.
+<24.11.2009 13:22:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:26> Uac: 228.000000
+<24.11.2009 13:22:26> Iac: 21913.000000
+<24.11.2009 13:22:26> Error reading input parameter at 257.
+<24.11.2009 13:22:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:32> Uac: 220.000000
+<24.11.2009 13:22:32> Iac: 24265.000000
+<24.11.2009 13:22:32> Error reading input parameter at 257.
+<24.11.2009 13:22:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:38> Uac: 227.000000
+<24.11.2009 13:22:38> Iac: 21172.000000
+<24.11.2009 13:22:38> Error reading input parameter at 257.
+<24.11.2009 13:22:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:44> Uac: 226.000000
+<24.11.2009 13:22:44> Iac: 21920.000000
+<24.11.2009 13:22:44> Error reading input parameter at 257.
+<24.11.2009 13:22:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:50> Uac: 231.000000
+<24.11.2009 13:22:50> Iac: 21233.000000
+<24.11.2009 13:22:50> Error reading input parameter at 257.
+<24.11.2009 13:22:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:22:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:22:56> Uac: 227.000000
+<24.11.2009 13:22:56> Iac: 24086.000000
+<24.11.2009 13:22:56> Error reading input parameter at 257.
+<24.11.2009 13:22:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:02> Uac: 222.000000
+<24.11.2009 13:23:02> Iac: 21835.000000
+<24.11.2009 13:23:02> Error reading input parameter at 257.
+<24.11.2009 13:23:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:08> Uac: 224.000000
+<24.11.2009 13:23:08> Iac: 20342.000000
+<24.11.2009 13:23:08> Error reading input parameter at 257.
+<24.11.2009 13:23:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:14> Uac: 220.000000
+<24.11.2009 13:23:14> Iac: 23851.000000
+<24.11.2009 13:23:14> Error reading input parameter at 257.
+<24.11.2009 13:23:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:20> Uac: 237.000000
+<24.11.2009 13:23:20> Iac: 21571.000000
+<24.11.2009 13:23:20> Error reading input parameter at 257.
+<24.11.2009 13:23:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:26> Uac: 227.000000
+<24.11.2009 13:23:26> Iac: 21440.000000
+<24.11.2009 13:23:26> Error reading input parameter at 257.
+<24.11.2009 13:23:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:32> Uac: 227.000000
+<24.11.2009 13:23:32> Iac: 21617.000000
+<24.11.2009 13:23:32> Error reading input parameter at 257.
+<24.11.2009 13:23:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:39> Uac: 231.000000
+<24.11.2009 13:23:39> Iac: 22265.000000
+<24.11.2009 13:23:39> Error reading input parameter at 257.
+<24.11.2009 13:23:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:45> Uac: 238.000000
+<24.11.2009 13:23:45> Iac: 22978.000000
+<24.11.2009 13:23:45> Error reading input parameter at 257.
+<24.11.2009 13:23:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:51> Uac: 220.000000
+<24.11.2009 13:23:51> Iac: 20095.000000
+<24.11.2009 13:23:51> Error reading input parameter at 257.
+<24.11.2009 13:23:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:23:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:23:57> Uac: 230.000000
+<24.11.2009 13:23:57> Iac: 22087.000000
+<24.11.2009 13:23:57> Error reading input parameter at 257.
+<24.11.2009 13:23:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:03> Uac: 238.000000
+<24.11.2009 13:24:03> Iac: 23438.000000
+<24.11.2009 13:24:03> Error reading input parameter at 257.
+<24.11.2009 13:24:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:09> Uac: 233.000000
+<24.11.2009 13:24:09> Iac: 21525.000000
+<24.11.2009 13:24:09> Error reading input parameter at 257.
+<24.11.2009 13:24:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:15> Uac: 231.000000
+<24.11.2009 13:24:15> Iac: 23520.000000
+<24.11.2009 13:24:15> Error reading input parameter at 257.
+<24.11.2009 13:24:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:21> Uac: 232.000000
+<24.11.2009 13:24:21> Iac: 24157.000000
+<24.11.2009 13:24:21> Error reading input parameter at 257.
+<24.11.2009 13:24:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:27> Uac: 236.000000
+<24.11.2009 13:24:27> Iac: 23621.000000
+<24.11.2009 13:24:27> Error reading input parameter at 257.
+<24.11.2009 13:24:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:33> Uac: 222.000000
+<24.11.2009 13:24:33> Iac: 24357.000000
+<24.11.2009 13:24:33> Error reading input parameter at 257.
+<24.11.2009 13:24:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:39> Uac: 220.000000
+<24.11.2009 13:24:39> Iac: 23462.000000
+<24.11.2009 13:24:39> Error reading input parameter at 257.
+<24.11.2009 13:24:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:45> Uac: 227.000000
+<24.11.2009 13:24:45> Iac: 21239.000000
+<24.11.2009 13:24:45> Error reading input parameter at 257.
+<24.11.2009 13:24:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:51> Uac: 222.000000
+<24.11.2009 13:24:51> Iac: 21869.000000
+<24.11.2009 13:24:51> Error reading input parameter at 257.
+<24.11.2009 13:24:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:24:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:24:57> Uac: 220.000000
+<24.11.2009 13:24:57> Iac: 23161.000000
+<24.11.2009 13:24:57> Error reading input parameter at 257.
+<24.11.2009 13:24:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:03> Uac: 226.000000
+<24.11.2009 13:25:03> Iac: 21298.000000
+<24.11.2009 13:25:03> Error reading input parameter at 257.
+<24.11.2009 13:25:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:09> Uac: 234.000000
+<24.11.2009 13:25:09> Iac: 24290.000000
+<24.11.2009 13:25:09> Error reading input parameter at 257.
+<24.11.2009 13:25:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:16> Uac: 230.000000
+<24.11.2009 13:25:16> Iac: 23519.000000
+<24.11.2009 13:25:16> Error reading input parameter at 257.
+<24.11.2009 13:25:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:22> Uac: 238.000000
+<24.11.2009 13:25:22> Iac: 22758.000000
+<24.11.2009 13:25:22> Error reading input parameter at 257.
+<24.11.2009 13:25:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:28> Uac: 238.000000
+<24.11.2009 13:25:28> Iac: 21362.000000
+<24.11.2009 13:25:28> Error reading input parameter at 257.
+<24.11.2009 13:25:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:34> Uac: 219.000000
+<24.11.2009 13:25:34> Iac: 23465.000000
+<24.11.2009 13:25:34> Error reading input parameter at 257.
+<24.11.2009 13:25:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:40> Uac: 236.000000
+<24.11.2009 13:25:40> Iac: 20728.000000
+<24.11.2009 13:25:40> Error reading input parameter at 257.
+<24.11.2009 13:25:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:46> Uac: 226.000000
+<24.11.2009 13:25:46> Iac: 21231.000000
+<24.11.2009 13:25:46> Error reading input parameter at 257.
+<24.11.2009 13:25:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:52> Uac: 229.000000
+<24.11.2009 13:25:52> Iac: 23285.000000
+<24.11.2009 13:25:52> Error reading input parameter at 257.
+<24.11.2009 13:25:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:25:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:25:58> Uac: 223.000000
+<24.11.2009 13:25:58> Iac: 24220.000000
+<24.11.2009 13:25:58> Error reading input parameter at 257.
+<24.11.2009 13:25:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:04> Uac: 222.000000
+<24.11.2009 13:26:04> Iac: 23603.000000
+<24.11.2009 13:26:04> Error reading input parameter at 257.
+<24.11.2009 13:26:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:10> Uac: 223.000000
+<24.11.2009 13:26:10> Iac: 20827.000000
+<24.11.2009 13:26:10> Error reading input parameter at 257.
+<24.11.2009 13:26:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:16> Uac: 233.000000
+<24.11.2009 13:26:16> Iac: 20713.000000
+<24.11.2009 13:26:16> Error reading input parameter at 257.
+<24.11.2009 13:26:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:22> Uac: 231.000000
+<24.11.2009 13:26:22> Iac: 20322.000000
+<24.11.2009 13:26:22> Error reading input parameter at 257.
+<24.11.2009 13:26:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:28> Uac: 219.000000
+<24.11.2009 13:26:28> Iac: 24326.000000
+<24.11.2009 13:26:28> Error reading input parameter at 257.
+<24.11.2009 13:26:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:34> Uac: 232.000000
+<24.11.2009 13:26:34> Iac: 22628.000000
+<24.11.2009 13:26:34> Error reading input parameter at 257.
+<24.11.2009 13:26:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:40> Uac: 235.000000
+<24.11.2009 13:26:40> Iac: 22565.000000
+<24.11.2009 13:26:40> Error reading input parameter at 257.
+<24.11.2009 13:26:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:46> Uac: 223.000000
+<24.11.2009 13:26:46> Iac: 22273.000000
+<24.11.2009 13:26:46> Error reading input parameter at 257.
+<24.11.2009 13:26:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:52> Uac: 229.000000
+<24.11.2009 13:26:52> Iac: 21865.000000
+<24.11.2009 13:26:52> Error reading input parameter at 257.
+<24.11.2009 13:26:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:26:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:26:58> Uac: 236.000000
+<24.11.2009 13:26:58> Iac: 20862.000000
+<24.11.2009 13:26:58> Error reading input parameter at 257.
+<24.11.2009 13:26:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:05> Uac: 238.000000
+<24.11.2009 13:27:05> Iac: 23735.000000
+<24.11.2009 13:27:05> Error reading input parameter at 257.
+<24.11.2009 13:27:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:11> Uac: 229.000000
+<24.11.2009 13:27:11> Iac: 24104.000000
+<24.11.2009 13:27:11> Error reading input parameter at 257.
+<24.11.2009 13:27:11> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:17> Uac: 225.000000
+<24.11.2009 13:27:17> Iac: 20778.000000
+<24.11.2009 13:27:17> Error reading input parameter at 257.
+<24.11.2009 13:27:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:22> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:23> Uac: 219.000000
+<24.11.2009 13:27:23> Iac: 20913.000000
+<24.11.2009 13:27:23> Error reading input parameter at 257.
+<24.11.2009 13:27:23> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:29> Uac: 228.000000
+<24.11.2009 13:27:29> Iac: 24161.000000
+<24.11.2009 13:27:29> Error reading input parameter at 257.
+<24.11.2009 13:27:29> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:35> Uac: 225.000000
+<24.11.2009 13:27:35> Iac: 22295.000000
+<24.11.2009 13:27:35> Error reading input parameter at 257.
+<24.11.2009 13:27:35> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:41> Uac: 224.000000
+<24.11.2009 13:27:41> Iac: 20045.000000
+<24.11.2009 13:27:41> Error reading input parameter at 257.
+<24.11.2009 13:27:41> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:46> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:47> Uac: 235.000000
+<24.11.2009 13:27:47> Iac: 23017.000000
+<24.11.2009 13:27:47> Error reading input parameter at 257.
+<24.11.2009 13:27:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:53> Uac: 223.000000
+<24.11.2009 13:27:53> Iac: 20872.000000
+<24.11.2009 13:27:53> Error reading input parameter at 257.
+<24.11.2009 13:27:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:27:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:27:59> Uac: 223.000000
+<24.11.2009 13:27:59> Iac: 24091.000000
+<24.11.2009 13:27:59> Error reading input parameter at 257.
+<24.11.2009 13:27:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:05> Uac: 236.000000
+<24.11.2009 13:28:05> Iac: 23540.000000
+<24.11.2009 13:28:05> Error reading input parameter at 257.
+<24.11.2009 13:28:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:11> Uac: 238.000000
+<24.11.2009 13:28:11> Iac: 20763.000000
+<24.11.2009 13:28:11> Error reading input parameter at 257.
+<24.11.2009 13:28:11> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:17> Uac: 222.000000
+<24.11.2009 13:28:17> Iac: 19995.000000
+<24.11.2009 13:28:17> Error reading input parameter at 257.
+<24.11.2009 13:28:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:24> Uac: 231.000000
+<24.11.2009 13:28:24> Iac: 23947.000000
+<24.11.2009 13:28:24> Error reading input parameter at 257.
+<24.11.2009 13:28:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:30> Uac: 226.000000
+<24.11.2009 13:28:30> Iac: 23558.000000
+<24.11.2009 13:28:30> Error reading input parameter at 257.
+<24.11.2009 13:28:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:36> Uac: 238.000000
+<24.11.2009 13:28:36> Iac: 22737.000000
+<24.11.2009 13:28:36> Error reading input parameter at 257.
+<24.11.2009 13:28:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:42> Uac: 238.000000
+<24.11.2009 13:28:42> Iac: 20403.000000
+<24.11.2009 13:28:42> Error reading input parameter at 257.
+<24.11.2009 13:28:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:48> Uac: 237.000000
+<24.11.2009 13:28:48> Iac: 22278.000000
+<24.11.2009 13:28:48> Error reading input parameter at 257.
+<24.11.2009 13:28:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:28:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:28:55> Uac: 232.000000
+<24.11.2009 13:28:55> Iac: 21187.000000
+<24.11.2009 13:28:55> Error reading input parameter at 257.
+<24.11.2009 13:28:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:01> Uac: 232.000000
+<24.11.2009 13:29:01> Iac: 23471.000000
+<24.11.2009 13:29:01> Error reading input parameter at 257.
+<24.11.2009 13:29:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:07> Uac: 221.000000
+<24.11.2009 13:29:07> Iac: 20057.000000
+<24.11.2009 13:29:07> Error reading input parameter at 257.
+<24.11.2009 13:29:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:13> Uac: 229.000000
+<24.11.2009 13:29:13> Iac: 21706.000000
+<24.11.2009 13:29:13> Error reading input parameter at 257.
+<24.11.2009 13:29:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:19> Uac: 240.000000
+<24.11.2009 13:29:19> Iac: 21974.000000
+<24.11.2009 13:29:19> Error reading input parameter at 257.
+<24.11.2009 13:29:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:25> Uac: 221.000000
+<24.11.2009 13:29:25> Iac: 23348.000000
+<24.11.2009 13:29:25> Error reading input parameter at 257.
+<24.11.2009 13:29:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:31> Uac: 219.000000
+<24.11.2009 13:29:31> Iac: 22116.000000
+<24.11.2009 13:29:31> Error reading input parameter at 257.
+<24.11.2009 13:29:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:37> Uac: 226.000000
+<24.11.2009 13:29:37> Iac: 23943.000000
+<24.11.2009 13:29:37> Error reading input parameter at 257.
+<24.11.2009 13:29:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:43> Uac: 234.000000
+<24.11.2009 13:29:43> Iac: 21362.000000
+<24.11.2009 13:29:43> Error reading input parameter at 257.
+<24.11.2009 13:29:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:49> Uac: 220.000000
+<24.11.2009 13:29:49> Iac: 23183.000000
+<24.11.2009 13:29:49> Error reading input parameter at 257.
+<24.11.2009 13:29:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:29:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:29:55> Uac: 238.000000
+<24.11.2009 13:29:55> Iac: 23315.000000
+<24.11.2009 13:29:55> Error reading input parameter at 257.
+<24.11.2009 13:29:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:01> Uac: 241.000000
+<24.11.2009 13:30:01> Iac: 23747.000000
+<24.11.2009 13:30:01> Error reading input parameter at 257.
+<24.11.2009 13:30:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:07> Uac: 235.000000
+<24.11.2009 13:30:07> Iac: 23456.000000
+<24.11.2009 13:30:07> Error reading input parameter at 257.
+<24.11.2009 13:30:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:14> Uac: 231.000000
+<24.11.2009 13:30:14> Iac: 23109.000000
+<24.11.2009 13:30:14> Error reading input parameter at 257.
+<24.11.2009 13:30:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:20> Uac: 241.000000
+<24.11.2009 13:30:20> Iac: 20912.000000
+<24.11.2009 13:30:20> Error reading input parameter at 257.
+<24.11.2009 13:30:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:26> Uac: 228.000000
+<24.11.2009 13:30:26> Iac: 23603.000000
+<24.11.2009 13:30:26> Error reading input parameter at 257.
+<24.11.2009 13:30:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:32> Uac: 222.000000
+<24.11.2009 13:30:32> Iac: 21154.000000
+<24.11.2009 13:30:32> Error reading input parameter at 257.
+<24.11.2009 13:30:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:38> Uac: 222.000000
+<24.11.2009 13:30:38> Iac: 20345.000000
+<24.11.2009 13:30:38> Error reading input parameter at 257.
+<24.11.2009 13:30:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:44> Uac: 234.000000
+<24.11.2009 13:30:44> Iac: 21431.000000
+<24.11.2009 13:30:44> Error reading input parameter at 257.
+<24.11.2009 13:30:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:50> Uac: 234.000000
+<24.11.2009 13:30:50> Iac: 23149.000000
+<24.11.2009 13:30:50> Error reading input parameter at 257.
+<24.11.2009 13:30:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:30:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:30:56> Uac: 227.000000
+<24.11.2009 13:30:56> Iac: 22531.000000
+<24.11.2009 13:30:56> Error reading input parameter at 257.
+<24.11.2009 13:30:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:02> Uac: 232.000000
+<24.11.2009 13:31:02> Iac: 21460.000000
+<24.11.2009 13:31:02> Error reading input parameter at 257.
+<24.11.2009 13:31:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:08> Uac: 233.000000
+<24.11.2009 13:31:08> Iac: 20886.000000
+<24.11.2009 13:31:08> Error reading input parameter at 257.
+<24.11.2009 13:31:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:14> Uac: 235.000000
+<24.11.2009 13:31:14> Iac: 23588.000000
+<24.11.2009 13:31:14> Error reading input parameter at 257.
+<24.11.2009 13:31:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:20> Uac: 220.000000
+<24.11.2009 13:31:20> Iac: 21095.000000
+<24.11.2009 13:31:20> Error reading input parameter at 257.
+<24.11.2009 13:31:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:26> Uac: 241.000000
+<24.11.2009 13:31:26> Iac: 20011.000000
+<24.11.2009 13:31:26> Error reading input parameter at 257.
+<24.11.2009 13:31:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:32> Uac: 219.000000
+<24.11.2009 13:31:32> Iac: 23054.000000
+<24.11.2009 13:31:32> Error reading input parameter at 257.
+<24.11.2009 13:31:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:38> Uac: 228.000000
+<24.11.2009 13:31:38> Iac: 23535.000000
+<24.11.2009 13:31:38> Error reading input parameter at 257.
+<24.11.2009 13:31:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:44> Uac: 227.000000
+<24.11.2009 13:31:44> Iac: 21149.000000
+<24.11.2009 13:31:44> Error reading input parameter at 257.
+<24.11.2009 13:31:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:51> Uac: 240.000000
+<24.11.2009 13:31:51> Iac: 23760.000000
+<24.11.2009 13:31:51> Error reading input parameter at 257.
+<24.11.2009 13:31:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:31:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:31:57> Uac: 237.000000
+<24.11.2009 13:31:57> Iac: 23803.000000
+<24.11.2009 13:31:57> Error reading input parameter at 257.
+<24.11.2009 13:31:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:03> Uac: 236.000000
+<24.11.2009 13:32:03> Iac: 21578.000000
+<24.11.2009 13:32:03> Error reading input parameter at 257.
+<24.11.2009 13:32:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:09> Uac: 233.000000
+<24.11.2009 13:32:09> Iac: 23694.000000
+<24.11.2009 13:32:09> Error reading input parameter at 257.
+<24.11.2009 13:32:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:15> Uac: 223.000000
+<24.11.2009 13:32:15> Iac: 23694.000000
+<24.11.2009 13:32:15> Error reading input parameter at 257.
+<24.11.2009 13:32:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:21> Uac: 232.000000
+<24.11.2009 13:32:21> Iac: 21020.000000
+<24.11.2009 13:32:21> Error reading input parameter at 257.
+<24.11.2009 13:32:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:27> Uac: 229.000000
+<24.11.2009 13:32:27> Iac: 22753.000000
+<24.11.2009 13:32:27> Error reading input parameter at 257.
+<24.11.2009 13:32:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:33> Uac: 239.000000
+<24.11.2009 13:32:33> Iac: 20127.000000
+<24.11.2009 13:32:33> Error reading input parameter at 257.
+<24.11.2009 13:32:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:39> Uac: 232.000000
+<24.11.2009 13:32:39> Iac: 20480.000000
+<24.11.2009 13:32:39> Error reading input parameter at 257.
+<24.11.2009 13:32:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:45> Uac: 223.000000
+<24.11.2009 13:32:45> Iac: 23512.000000
+<24.11.2009 13:32:45> Error reading input parameter at 257.
+<24.11.2009 13:32:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:51> Uac: 219.000000
+<24.11.2009 13:32:51> Iac: 24273.000000
+<24.11.2009 13:32:51> Error reading input parameter at 257.
+<24.11.2009 13:32:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:32:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:32:57> Uac: 232.000000
+<24.11.2009 13:32:57> Iac: 20604.000000
+<24.11.2009 13:32:57> Error reading input parameter at 257.
+<24.11.2009 13:32:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:03> Uac: 219.000000
+<24.11.2009 13:33:03> Iac: 20109.000000
+<24.11.2009 13:33:03> Error reading input parameter at 257.
+<24.11.2009 13:33:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:09> Uac: 237.000000
+<24.11.2009 13:33:09> Iac: 21033.000000
+<24.11.2009 13:33:09> Error reading input parameter at 257.
+<24.11.2009 13:33:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:15> Uac: 240.000000
+<24.11.2009 13:33:15> Iac: 23434.000000
+<24.11.2009 13:33:15> Error reading input parameter at 257.
+<24.11.2009 13:33:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:21> Uac: 222.000000
+<24.11.2009 13:33:21> Iac: 23302.000000
+<24.11.2009 13:33:21> Error reading input parameter at 257.
+<24.11.2009 13:33:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:27> Uac: 221.000000
+<24.11.2009 13:33:27> Iac: 24373.000000
+<24.11.2009 13:33:27> Error reading input parameter at 257.
+<24.11.2009 13:33:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:33> Uac: 222.000000
+<24.11.2009 13:33:33> Iac: 21212.000000
+<24.11.2009 13:33:33> Error reading input parameter at 257.
+<24.11.2009 13:33:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:40> Uac: 222.000000
+<24.11.2009 13:33:40> Iac: 21324.000000
+<24.11.2009 13:33:40> Error reading input parameter at 257.
+<24.11.2009 13:33:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:46> Uac: 235.000000
+<24.11.2009 13:33:46> Iac: 22424.000000
+<24.11.2009 13:33:46> Error reading input parameter at 257.
+<24.11.2009 13:33:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:52> Uac: 225.000000
+<24.11.2009 13:33:52> Iac: 21189.000000
+<24.11.2009 13:33:52> Error reading input parameter at 257.
+<24.11.2009 13:33:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:33:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:33:58> Uac: 225.000000
+<24.11.2009 13:33:58> Iac: 20915.000000
+<24.11.2009 13:33:58> Error reading input parameter at 257.
+<24.11.2009 13:33:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:04> Uac: 232.000000
+<24.11.2009 13:34:04> Iac: 20627.000000
+<24.11.2009 13:34:04> Error reading input parameter at 257.
+<24.11.2009 13:34:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:10> Uac: 220.000000
+<24.11.2009 13:34:10> Iac: 22498.000000
+<24.11.2009 13:34:10> Error reading input parameter at 257.
+<24.11.2009 13:34:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:16> Uac: 221.000000
+<24.11.2009 13:34:16> Iac: 24076.000000
+<24.11.2009 13:34:16> Error reading input parameter at 257.
+<24.11.2009 13:34:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:22> Uac: 236.000000
+<24.11.2009 13:34:22> Iac: 24382.000000
+<24.11.2009 13:34:22> Error reading input parameter at 257.
+<24.11.2009 13:34:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:28> Uac: 237.000000
+<24.11.2009 13:34:28> Iac: 23273.000000
+<24.11.2009 13:34:28> Error reading input parameter at 257.
+<24.11.2009 13:34:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:34> Uac: 231.000000
+<24.11.2009 13:34:34> Iac: 22153.000000
+<24.11.2009 13:34:34> Error reading input parameter at 257.
+<24.11.2009 13:34:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:40> Uac: 222.000000
+<24.11.2009 13:34:40> Iac: 22334.000000
+<24.11.2009 13:34:40> Error reading input parameter at 257.
+<24.11.2009 13:34:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:46> Uac: 238.000000
+<24.11.2009 13:34:46> Iac: 21304.000000
+<24.11.2009 13:34:46> Error reading input parameter at 257.
+<24.11.2009 13:34:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:52> Uac: 234.000000
+<24.11.2009 13:34:52> Iac: 24241.000000
+<24.11.2009 13:34:52> Error reading input parameter at 257.
+<24.11.2009 13:34:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:34:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:34:58> Uac: 240.000000
+<24.11.2009 13:34:58> Iac: 21153.000000
+<24.11.2009 13:34:58> Error reading input parameter at 257.
+<24.11.2009 13:34:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:04> Uac: 219.000000
+<24.11.2009 13:35:04> Iac: 24126.000000
+<24.11.2009 13:35:04> Error reading input parameter at 257.
+<24.11.2009 13:35:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:11> Uac: 222.000000
+<24.11.2009 13:35:11> Iac: 24334.000000
+<24.11.2009 13:35:11> Error reading input parameter at 257.
+<24.11.2009 13:35:11> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:17> Uac: 221.000000
+<24.11.2009 13:35:17> Iac: 20016.000000
+<24.11.2009 13:35:17> Error reading input parameter at 257.
+<24.11.2009 13:35:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:22> Uac: 240.000000
+<24.11.2009 13:35:22> Iac: 23906.000000
+<24.11.2009 13:35:22> Error reading input parameter at 257.
+<24.11.2009 13:35:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:28> Uac: 232.000000
+<24.11.2009 13:35:28> Iac: 24169.000000
+<24.11.2009 13:35:29> Error reading input parameter at 257.
+<24.11.2009 13:35:29> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:35> Uac: 222.000000
+<24.11.2009 13:35:35> Iac: 21181.000000
+<24.11.2009 13:35:35> Error reading input parameter at 257.
+<24.11.2009 13:35:35> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:41> Uac: 237.000000
+<24.11.2009 13:35:41> Iac: 24360.000000
+<24.11.2009 13:35:41> Error reading input parameter at 257.
+<24.11.2009 13:35:41> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:46> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:47> Uac: 229.000000
+<24.11.2009 13:35:47> Iac: 22580.000000
+<24.11.2009 13:35:47> Error reading input parameter at 257.
+<24.11.2009 13:35:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:53> Uac: 226.000000
+<24.11.2009 13:35:53> Iac: 23201.000000
+<24.11.2009 13:35:53> Error reading input parameter at 257.
+<24.11.2009 13:35:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:35:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:35:59> Uac: 222.000000
+<24.11.2009 13:35:59> Iac: 23834.000000
+<24.11.2009 13:35:59> Error reading input parameter at 257.
+<24.11.2009 13:35:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:05> Uac: 230.000000
+<24.11.2009 13:36:05> Iac: 23401.000000
+<24.11.2009 13:36:05> Error reading input parameter at 257.
+<24.11.2009 13:36:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:11> Uac: 230.000000
+<24.11.2009 13:36:11> Iac: 21250.000000
+<24.11.2009 13:36:11> Error reading input parameter at 257.
+<24.11.2009 13:36:11> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:17> Uac: 220.000000
+<24.11.2009 13:36:17> Iac: 23620.000000
+<24.11.2009 13:36:17> Error reading input parameter at 257.
+<24.11.2009 13:36:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:22> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:23> Uac: 228.000000
+<24.11.2009 13:36:23> Iac: 23675.000000
+<24.11.2009 13:36:23> Error reading input parameter at 257.
+<24.11.2009 13:36:23> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:29> Uac: 234.000000
+<24.11.2009 13:36:29> Iac: 21485.000000
+<24.11.2009 13:36:29> Error reading input parameter at 257.
+<24.11.2009 13:36:29> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:35> Uac: 239.000000
+<24.11.2009 13:36:35> Iac: 20754.000000
+<24.11.2009 13:36:35> Error reading input parameter at 257.
+<24.11.2009 13:36:35> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:41> Uac: 241.000000
+<24.11.2009 13:36:41> Iac: 22965.000000
+<24.11.2009 13:36:41> Error reading input parameter at 257.
+<24.11.2009 13:36:41> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:46> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:47> Uac: 234.000000
+<24.11.2009 13:36:47> Iac: 23298.000000
+<24.11.2009 13:36:47> Error reading input parameter at 257.
+<24.11.2009 13:36:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:53> Uac: 227.000000
+<24.11.2009 13:36:53> Iac: 21648.000000
+<24.11.2009 13:36:53> Error reading input parameter at 257.
+<24.11.2009 13:36:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:36:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:36:59> Uac: 222.000000
+<24.11.2009 13:36:59> Iac: 23516.000000
+<24.11.2009 13:36:59> Error reading input parameter at 257.
+<24.11.2009 13:36:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:05> Uac: 229.000000
+<24.11.2009 13:37:05> Iac: 20664.000000
+<24.11.2009 13:37:05> Error reading input parameter at 257.
+<24.11.2009 13:37:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:12> Uac: 241.000000
+<24.11.2009 13:37:12> Iac: 21053.000000
+<24.11.2009 13:37:12> Error reading input parameter at 257.
+<24.11.2009 13:37:12> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:18> Uac: 228.000000
+<24.11.2009 13:37:18> Iac: 23093.000000
+<24.11.2009 13:37:18> Error reading input parameter at 257.
+<24.11.2009 13:37:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:25> Uac: 240.000000
+<24.11.2009 13:37:25> Iac: 23805.000000
+<24.11.2009 13:37:25> Error reading input parameter at 257.
+<24.11.2009 13:37:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:31> Uac: 224.000000
+<24.11.2009 13:37:31> Iac: 23529.000000
+<24.11.2009 13:37:31> Error reading input parameter at 257.
+<24.11.2009 13:37:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:37> Uac: 222.000000
+<24.11.2009 13:37:37> Iac: 21468.000000
+<24.11.2009 13:37:37> Error reading input parameter at 257.
+<24.11.2009 13:37:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:43> Uac: 234.000000
+<24.11.2009 13:37:43> Iac: 20304.000000
+<24.11.2009 13:37:43> Error reading input parameter at 257.
+<24.11.2009 13:37:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:49> Uac: 235.000000
+<24.11.2009 13:37:49> Iac: 21091.000000
+<24.11.2009 13:37:49> Error reading input parameter at 257.
+<24.11.2009 13:37:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:37:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:37:55> Uac: 219.000000
+<24.11.2009 13:37:55> Iac: 21725.000000
+<24.11.2009 13:37:55> Error reading input parameter at 257.
+<24.11.2009 13:37:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:01> Uac: 232.000000
+<24.11.2009 13:38:01> Iac: 22032.000000
+<24.11.2009 13:38:01> Error reading input parameter at 257.
+<24.11.2009 13:38:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:07> Uac: 220.000000
+<24.11.2009 13:38:07> Iac: 24369.000000
+<24.11.2009 13:38:07> Error reading input parameter at 257.
+<24.11.2009 13:38:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:13> Uac: 220.000000
+<24.11.2009 13:38:13> Iac: 21742.000000
+<24.11.2009 13:38:13> Error reading input parameter at 257.
+<24.11.2009 13:38:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:19> Uac: 219.000000
+<24.11.2009 13:38:19> Iac: 20323.000000
+<24.11.2009 13:38:19> Error reading input parameter at 257.
+<24.11.2009 13:38:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:25> Uac: 234.000000
+<24.11.2009 13:38:25> Iac: 21123.000000
+<24.11.2009 13:38:25> Error reading input parameter at 257.
+<24.11.2009 13:38:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:31> Uac: 239.000000
+<24.11.2009 13:38:31> Iac: 21799.000000
+<24.11.2009 13:38:31> Error reading input parameter at 257.
+<24.11.2009 13:38:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:37> Uac: 222.000000
+<24.11.2009 13:38:37> Iac: 21313.000000
+<24.11.2009 13:38:37> Error reading input parameter at 257.
+<24.11.2009 13:38:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:43> Uac: 224.000000
+<24.11.2009 13:38:43> Iac: 21782.000000
+<24.11.2009 13:38:43> Error reading input parameter at 257.
+<24.11.2009 13:38:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:50> Uac: 238.000000
+<24.11.2009 13:38:50> Iac: 21591.000000
+<24.11.2009 13:38:50> Error reading input parameter at 257.
+<24.11.2009 13:38:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:38:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:38:56> Uac: 234.000000
+<24.11.2009 13:38:56> Iac: 23063.000000
+<24.11.2009 13:38:56> Error reading input parameter at 257.
+<24.11.2009 13:38:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:02> Uac: 227.000000
+<24.11.2009 13:39:02> Iac: 23905.000000
+<24.11.2009 13:39:02> Error reading input parameter at 257.
+<24.11.2009 13:39:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:08> Uac: 228.000000
+<24.11.2009 13:39:08> Iac: 22671.000000
+<24.11.2009 13:39:08> Error reading input parameter at 257.
+<24.11.2009 13:39:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:14> Uac: 228.000000
+<24.11.2009 13:39:14> Iac: 22566.000000
+<24.11.2009 13:39:14> Error reading input parameter at 257.
+<24.11.2009 13:39:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:21> Uac: 235.000000
+<24.11.2009 13:39:21> Iac: 22965.000000
+<24.11.2009 13:39:21> Error reading input parameter at 257.
+<24.11.2009 13:39:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:27> Uac: 219.000000
+<24.11.2009 13:39:27> Iac: 21582.000000
+<24.11.2009 13:39:27> Error reading input parameter at 257.
+<24.11.2009 13:39:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:33> Uac: 224.000000
+<24.11.2009 13:39:33> Iac: 23760.000000
+<24.11.2009 13:39:33> Error reading input parameter at 257.
+<24.11.2009 13:39:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:39> Uac: 238.000000
+<24.11.2009 13:39:39> Iac: 22976.000000
+<24.11.2009 13:39:39> Error reading input parameter at 257.
+<24.11.2009 13:39:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:45> Uac: 240.000000
+<24.11.2009 13:39:45> Iac: 22003.000000
+<24.11.2009 13:39:45> Error reading input parameter at 257.
+<24.11.2009 13:39:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:51> Uac: 220.000000
+<24.11.2009 13:39:51> Iac: 22258.000000
+<24.11.2009 13:39:51> Error reading input parameter at 257.
+<24.11.2009 13:39:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:39:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:39:57> Uac: 234.000000
+<24.11.2009 13:39:57> Iac: 22391.000000
+<24.11.2009 13:39:57> Error reading input parameter at 257.
+<24.11.2009 13:39:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:03> Uac: 233.000000
+<24.11.2009 13:40:03> Iac: 24249.000000
+<24.11.2009 13:40:03> Error reading input parameter at 257.
+<24.11.2009 13:40:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:09> Uac: 220.000000
+<24.11.2009 13:40:09> Iac: 22291.000000
+<24.11.2009 13:40:09> Error reading input parameter at 257.
+<24.11.2009 13:40:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:15> Uac: 240.000000
+<24.11.2009 13:40:15> Iac: 22471.000000
+<24.11.2009 13:40:15> Error reading input parameter at 257.
+<24.11.2009 13:40:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:21> Uac: 233.000000
+<24.11.2009 13:40:21> Iac: 21840.000000
+<24.11.2009 13:40:21> Error reading input parameter at 257.
+<24.11.2009 13:40:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:27> Uac: 230.000000
+<24.11.2009 13:40:27> Iac: 23166.000000
+<24.11.2009 13:40:27> Error reading input parameter at 257.
+<24.11.2009 13:40:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:33> Uac: 239.000000
+<24.11.2009 13:40:33> Iac: 22685.000000
+<24.11.2009 13:40:33> Error reading input parameter at 257.
+<24.11.2009 13:40:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:39> Uac: 234.000000
+<24.11.2009 13:40:39> Iac: 21535.000000
+<24.11.2009 13:40:39> Error reading input parameter at 257.
+<24.11.2009 13:40:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:46> Uac: 227.000000
+<24.11.2009 13:40:46> Iac: 23648.000000
+<24.11.2009 13:40:46> Error reading input parameter at 257.
+<24.11.2009 13:40:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:52> Uac: 240.000000
+<24.11.2009 13:40:52> Iac: 24378.000000
+<24.11.2009 13:40:52> Error reading input parameter at 257.
+<24.11.2009 13:40:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:40:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:40:58> Uac: 239.000000
+<24.11.2009 13:40:58> Iac: 20929.000000
+<24.11.2009 13:40:58> Error reading input parameter at 257.
+<24.11.2009 13:40:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:04> Uac: 233.000000
+<24.11.2009 13:41:04> Iac: 20647.000000
+<24.11.2009 13:41:04> Error reading input parameter at 257.
+<24.11.2009 13:41:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:10> Uac: 238.000000
+<24.11.2009 13:41:10> Iac: 22782.000000
+<24.11.2009 13:41:10> Error reading input parameter at 257.
+<24.11.2009 13:41:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:16> Uac: 229.000000
+<24.11.2009 13:41:16> Iac: 20489.000000
+<24.11.2009 13:41:16> Error reading input parameter at 257.
+<24.11.2009 13:41:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:22> Uac: 239.000000
+<24.11.2009 13:41:22> Iac: 23312.000000
+<24.11.2009 13:41:22> Error reading input parameter at 257.
+<24.11.2009 13:41:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:28> Uac: 226.000000
+<24.11.2009 13:41:28> Iac: 21174.000000
+<24.11.2009 13:41:28> Error reading input parameter at 257.
+<24.11.2009 13:41:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:34> Uac: 232.000000
+<24.11.2009 13:41:34> Iac: 20218.000000
+<24.11.2009 13:41:34> Error reading input parameter at 257.
+<24.11.2009 13:41:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:40> Uac: 229.000000
+<24.11.2009 13:41:40> Iac: 22900.000000
+<24.11.2009 13:41:40> Error reading input parameter at 257.
+<24.11.2009 13:41:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:46> Uac: 227.000000
+<24.11.2009 13:41:46> Iac: 20290.000000
+<24.11.2009 13:41:46> Error reading input parameter at 257.
+<24.11.2009 13:41:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:52> Uac: 221.000000
+<24.11.2009 13:41:52> Iac: 20059.000000
+<24.11.2009 13:41:52> Error reading input parameter at 257.
+<24.11.2009 13:41:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:41:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:41:58> Uac: 221.000000
+<24.11.2009 13:41:58> Iac: 20806.000000
+<24.11.2009 13:41:58> Error reading input parameter at 257.
+<24.11.2009 13:41:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:04> Uac: 241.000000
+<24.11.2009 13:42:04> Iac: 19976.000000
+<24.11.2009 13:42:04> Error reading input parameter at 257.
+<24.11.2009 13:42:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:10> Uac: 232.000000
+<24.11.2009 13:42:10> Iac: 22497.000000
+<24.11.2009 13:42:10> Error reading input parameter at 257.
+<24.11.2009 13:42:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:17> Uac: 238.000000
+<24.11.2009 13:42:17> Iac: 21320.000000
+<24.11.2009 13:42:17> Error reading input parameter at 257.
+<24.11.2009 13:42:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:22> Uac: 223.000000
+<24.11.2009 13:42:22> Iac: 20321.000000
+<24.11.2009 13:42:22> Error reading input parameter at 257.
+<24.11.2009 13:42:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:28> Uac: 219.000000
+<24.11.2009 13:42:28> Iac: 24372.000000
+<24.11.2009 13:42:28> Error reading input parameter at 257.
+<24.11.2009 13:42:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:35> Uac: 230.000000
+<24.11.2009 13:42:35> Iac: 20227.000000
+<24.11.2009 13:42:35> Error reading input parameter at 257.
+<24.11.2009 13:42:35> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:41> Uac: 222.000000
+<24.11.2009 13:42:41> Iac: 21169.000000
+<24.11.2009 13:42:41> Error reading input parameter at 257.
+<24.11.2009 13:42:41> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:46> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:47> Uac: 221.000000
+<24.11.2009 13:42:47> Iac: 20077.000000
+<24.11.2009 13:42:47> Error reading input parameter at 257.
+<24.11.2009 13:42:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:53> Uac: 227.000000
+<24.11.2009 13:42:53> Iac: 21948.000000
+<24.11.2009 13:42:53> Error reading input parameter at 257.
+<24.11.2009 13:42:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:42:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:42:59> Uac: 240.000000
+<24.11.2009 13:42:59> Iac: 22051.000000
+<24.11.2009 13:42:59> Error reading input parameter at 257.
+<24.11.2009 13:42:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:05> Uac: 222.000000
+<24.11.2009 13:43:05> Iac: 24294.000000
+<24.11.2009 13:43:05> Error reading input parameter at 257.
+<24.11.2009 13:43:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:11> Uac: 232.000000
+<24.11.2009 13:43:11> Iac: 20712.000000
+<24.11.2009 13:43:11> Error reading input parameter at 257.
+<24.11.2009 13:43:11> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:17> Uac: 225.000000
+<24.11.2009 13:43:17> Iac: 21142.000000
+<24.11.2009 13:43:17> Error reading input parameter at 257.
+<24.11.2009 13:43:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:22> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:23> Uac: 239.000000
+<24.11.2009 13:43:23> Iac: 22853.000000
+<24.11.2009 13:43:23> Error reading input parameter at 257.
+<24.11.2009 13:43:23> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:29> Uac: 238.000000
+<24.11.2009 13:43:29> Iac: 20038.000000
+<24.11.2009 13:43:29> Error reading input parameter at 257.
+<24.11.2009 13:43:29> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:35> Uac: 230.000000
+<24.11.2009 13:43:35> Iac: 22575.000000
+<24.11.2009 13:43:35> Error reading input parameter at 257.
+<24.11.2009 13:43:35> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:41> Uac: 219.000000
+<24.11.2009 13:43:41> Iac: 20430.000000
+<24.11.2009 13:43:41> Error reading input parameter at 257.
+<24.11.2009 13:43:41> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:46> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:47> Uac: 231.000000
+<24.11.2009 13:43:47> Iac: 23407.000000
+<24.11.2009 13:43:47> Error reading input parameter at 257.
+<24.11.2009 13:43:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:53> Uac: 239.000000
+<24.11.2009 13:43:53> Iac: 21797.000000
+<24.11.2009 13:43:53> Error reading input parameter at 257.
+<24.11.2009 13:43:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:43:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:43:59> Uac: 235.000000
+<24.11.2009 13:43:59> Iac: 23510.000000
+<24.11.2009 13:43:59> Error reading input parameter at 257.
+<24.11.2009 13:43:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:06> Uac: 219.000000
+<24.11.2009 13:44:06> Iac: 21661.000000
+<24.11.2009 13:44:06> Error reading input parameter at 257.
+<24.11.2009 13:44:06> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:11> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:12> Uac: 226.000000
+<24.11.2009 13:44:12> Iac: 21588.000000
+<24.11.2009 13:44:12> Error reading input parameter at 257.
+<24.11.2009 13:44:12> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:18> Uac: 236.000000
+<24.11.2009 13:44:18> Iac: 23595.000000
+<24.11.2009 13:44:18> Error reading input parameter at 257.
+<24.11.2009 13:44:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:24> Uac: 235.000000
+<24.11.2009 13:44:24> Iac: 24376.000000
+<24.11.2009 13:44:24> Error reading input parameter at 257.
+<24.11.2009 13:44:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:30> Uac: 224.000000
+<24.11.2009 13:44:30> Iac: 21294.000000
+<24.11.2009 13:44:30> Error reading input parameter at 257.
+<24.11.2009 13:44:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:36> Uac: 227.000000
+<24.11.2009 13:44:36> Iac: 22197.000000
+<24.11.2009 13:44:36> Error reading input parameter at 257.
+<24.11.2009 13:44:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:42> Uac: 227.000000
+<24.11.2009 13:44:42> Iac: 21253.000000
+<24.11.2009 13:44:42> Error reading input parameter at 257.
+<24.11.2009 13:44:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:48> Uac: 237.000000
+<24.11.2009 13:44:48> Iac: 21871.000000
+<24.11.2009 13:44:48> Error reading input parameter at 257.
+<24.11.2009 13:44:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:44:54> Uac: 229.000000
+<24.11.2009 13:44:54> Iac: 21304.000000
+<24.11.2009 13:44:54> Error reading input parameter at 257.
+<24.11.2009 13:44:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:44:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:00> Uac: 231.000000
+<24.11.2009 13:45:00> Iac: 22628.000000
+<24.11.2009 13:45:00> Error reading input parameter at 257.
+<24.11.2009 13:45:00> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:05> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:06> Uac: 239.000000
+<24.11.2009 13:45:06> Iac: 21997.000000
+<24.11.2009 13:45:06> Error reading input parameter at 257.
+<24.11.2009 13:45:06> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:11> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:12> Uac: 226.000000
+<24.11.2009 13:45:12> Iac: 20171.000000
+<24.11.2009 13:45:12> Error reading input parameter at 257.
+<24.11.2009 13:45:12> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:18> Uac: 231.000000
+<24.11.2009 13:45:18> Iac: 20220.000000
+<24.11.2009 13:45:18> Error reading input parameter at 257.
+<24.11.2009 13:45:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:24> Uac: 225.000000
+<24.11.2009 13:45:24> Iac: 24349.000000
+<24.11.2009 13:45:24> Error reading input parameter at 257.
+<24.11.2009 13:45:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:30> Uac: 239.000000
+<24.11.2009 13:45:30> Iac: 23966.000000
+<24.11.2009 13:45:30> Error reading input parameter at 257.
+<24.11.2009 13:45:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:36> Uac: 240.000000
+<24.11.2009 13:45:36> Iac: 23586.000000
+<24.11.2009 13:45:36> Error reading input parameter at 257.
+<24.11.2009 13:45:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:42> Uac: 224.000000
+<24.11.2009 13:45:42> Iac: 22660.000000
+<24.11.2009 13:45:42> Error reading input parameter at 257.
+<24.11.2009 13:45:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:48> Uac: 241.000000
+<24.11.2009 13:45:48> Iac: 22991.000000
+<24.11.2009 13:45:48> Error reading input parameter at 257.
+<24.11.2009 13:45:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:45:54> Uac: 227.000000
+<24.11.2009 13:45:54> Iac: 24184.000000
+<24.11.2009 13:45:54> Error reading input parameter at 257.
+<24.11.2009 13:45:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:45:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:01> Uac: 240.000000
+<24.11.2009 13:46:01> Iac: 21370.000000
+<24.11.2009 13:46:01> Error reading input parameter at 257.
+<24.11.2009 13:46:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:07> Uac: 232.000000
+<24.11.2009 13:46:07> Iac: 23569.000000
+<24.11.2009 13:46:07> Error reading input parameter at 257.
+<24.11.2009 13:46:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:13> Uac: 236.000000
+<24.11.2009 13:46:13> Iac: 23931.000000
+<24.11.2009 13:46:13> Error reading input parameter at 257.
+<24.11.2009 13:46:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:19> Uac: 225.000000
+<24.11.2009 13:46:19> Iac: 24039.000000
+<24.11.2009 13:46:19> Error reading input parameter at 257.
+<24.11.2009 13:46:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:25> Uac: 239.000000
+<24.11.2009 13:46:25> Iac: 23168.000000
+<24.11.2009 13:46:25> Error reading input parameter at 257.
+<24.11.2009 13:46:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:31> Uac: 232.000000
+<24.11.2009 13:46:31> Iac: 22610.000000
+<24.11.2009 13:46:31> Error reading input parameter at 257.
+<24.11.2009 13:46:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:37> Uac: 241.000000
+<24.11.2009 13:46:37> Iac: 21162.000000
+<24.11.2009 13:46:37> Error reading input parameter at 257.
+<24.11.2009 13:46:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:43> Uac: 234.000000
+<24.11.2009 13:46:43> Iac: 24368.000000
+<24.11.2009 13:46:43> Error reading input parameter at 257.
+<24.11.2009 13:46:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:49> Uac: 241.000000
+<24.11.2009 13:46:49> Iac: 23295.000000
+<24.11.2009 13:46:49> Error reading input parameter at 257.
+<24.11.2009 13:46:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:46:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:46:55> Uac: 237.000000
+<24.11.2009 13:46:55> Iac: 23431.000000
+<24.11.2009 13:46:55> Error reading input parameter at 257.
+<24.11.2009 13:46:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:01> Uac: 219.000000
+<24.11.2009 13:47:01> Iac: 21534.000000
+<24.11.2009 13:47:01> Error reading input parameter at 257.
+<24.11.2009 13:47:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:07> Uac: 240.000000
+<24.11.2009 13:47:07> Iac: 22730.000000
+<24.11.2009 13:47:07> Error reading input parameter at 257.
+<24.11.2009 13:47:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:13> Uac: 219.000000
+<24.11.2009 13:47:13> Iac: 20372.000000
+<24.11.2009 13:47:13> Error reading input parameter at 257.
+<24.11.2009 13:47:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:19> Uac: 240.000000
+<24.11.2009 13:47:19> Iac: 22167.000000
+<24.11.2009 13:47:19> Error reading input parameter at 257.
+<24.11.2009 13:47:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:25> Uac: 229.000000
+<24.11.2009 13:47:25> Iac: 22172.000000
+<24.11.2009 13:47:25> Error reading input parameter at 257.
+<24.11.2009 13:47:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:31> Uac: 241.000000
+<24.11.2009 13:47:31> Iac: 21089.000000
+<24.11.2009 13:47:31> Error reading input parameter at 257.
+<24.11.2009 13:47:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:38> Uac: 238.000000
+<24.11.2009 13:47:38> Iac: 22164.000000
+<24.11.2009 13:47:38> Error reading input parameter at 257.
+<24.11.2009 13:47:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:44> Uac: 222.000000
+<24.11.2009 13:47:44> Iac: 21022.000000
+<24.11.2009 13:47:44> Error reading input parameter at 257.
+<24.11.2009 13:47:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:50> Uac: 223.000000
+<24.11.2009 13:47:50> Iac: 21203.000000
+<24.11.2009 13:47:50> Error reading input parameter at 257.
+<24.11.2009 13:47:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:47:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:47:56> Uac: 228.000000
+<24.11.2009 13:47:56> Iac: 23009.000000
+<24.11.2009 13:47:56> Error reading input parameter at 257.
+<24.11.2009 13:47:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:02> Uac: 230.000000
+<24.11.2009 13:48:02> Iac: 20076.000000
+<24.11.2009 13:48:02> Error reading input parameter at 257.
+<24.11.2009 13:48:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:08> Uac: 225.000000
+<24.11.2009 13:48:08> Iac: 22956.000000
+<24.11.2009 13:48:08> Error reading input parameter at 257.
+<24.11.2009 13:48:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:14> Uac: 223.000000
+<24.11.2009 13:48:14> Iac: 22239.000000
+<24.11.2009 13:48:14> Error reading input parameter at 257.
+<24.11.2009 13:48:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:20> Uac: 236.000000
+<24.11.2009 13:48:20> Iac: 20856.000000
+<24.11.2009 13:48:20> Error reading input parameter at 257.
+<24.11.2009 13:48:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:26> Uac: 224.000000
+<24.11.2009 13:48:26> Iac: 24022.000000
+<24.11.2009 13:48:26> Error reading input parameter at 257.
+<24.11.2009 13:48:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:32> Uac: 241.000000
+<24.11.2009 13:48:32> Iac: 20777.000000
+<24.11.2009 13:48:32> Error reading input parameter at 257.
+<24.11.2009 13:48:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:38> Uac: 239.000000
+<24.11.2009 13:48:38> Iac: 20409.000000
+<24.11.2009 13:48:38> Error reading input parameter at 257.
+<24.11.2009 13:48:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:44> Uac: 223.000000
+<24.11.2009 13:48:44> Iac: 23376.000000
+<24.11.2009 13:48:44> Error reading input parameter at 257.
+<24.11.2009 13:48:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:50> Uac: 230.000000
+<24.11.2009 13:48:50> Iac: 20556.000000
+<24.11.2009 13:48:50> Error reading input parameter at 257.
+<24.11.2009 13:48:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:48:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:48:56> Uac: 225.000000
+<24.11.2009 13:48:56> Iac: 24169.000000
+<24.11.2009 13:48:56> Error reading input parameter at 257.
+<24.11.2009 13:48:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:02> Uac: 241.000000
+<24.11.2009 13:49:02> Iac: 21284.000000
+<24.11.2009 13:49:02> Error reading input parameter at 257.
+<24.11.2009 13:49:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:08> Uac: 230.000000
+<24.11.2009 13:49:08> Iac: 21646.000000
+<24.11.2009 13:49:08> Error reading input parameter at 257.
+<24.11.2009 13:49:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:15> Uac: 219.000000
+<24.11.2009 13:49:15> Iac: 24368.000000
+<24.11.2009 13:49:15> Error reading input parameter at 257.
+<24.11.2009 13:49:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:22> Uac: 231.000000
+<24.11.2009 13:49:22> Iac: 20590.000000
+<24.11.2009 13:49:22> Error reading input parameter at 257.
+<24.11.2009 13:49:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:28> Uac: 225.000000
+<24.11.2009 13:49:28> Iac: 21980.000000
+<24.11.2009 13:49:28> Error reading input parameter at 257.
+<24.11.2009 13:49:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:34> Uac: 221.000000
+<24.11.2009 13:49:34> Iac: 22255.000000
+<24.11.2009 13:49:34> Error reading input parameter at 257.
+<24.11.2009 13:49:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:40> Uac: 238.000000
+<24.11.2009 13:49:40> Iac: 20448.000000
+<24.11.2009 13:49:40> Error reading input parameter at 257.
+<24.11.2009 13:49:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:46> Uac: 241.000000
+<24.11.2009 13:49:46> Iac: 21597.000000
+<24.11.2009 13:49:46> Error reading input parameter at 257.
+<24.11.2009 13:49:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:52> Uac: 220.000000
+<24.11.2009 13:49:52> Iac: 24041.000000
+<24.11.2009 13:49:52> Error reading input parameter at 257.
+<24.11.2009 13:49:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:49:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:49:58> Uac: 234.000000
+<24.11.2009 13:49:58> Iac: 21348.000000
+<24.11.2009 13:49:58> Error reading input parameter at 257.
+<24.11.2009 13:49:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:04> Uac: 228.000000
+<24.11.2009 13:50:04> Iac: 22583.000000
+<24.11.2009 13:50:04> Error reading input parameter at 257.
+<24.11.2009 13:50:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:10> Uac: 241.000000
+<24.11.2009 13:50:10> Iac: 20309.000000
+<24.11.2009 13:50:10> Error reading input parameter at 257.
+<24.11.2009 13:50:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:16> Uac: 226.000000
+<24.11.2009 13:50:16> Iac: 22615.000000
+<24.11.2009 13:50:16> Error reading input parameter at 257.
+<24.11.2009 13:50:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:22> Uac: 234.000000
+<24.11.2009 13:50:22> Iac: 23217.000000
+<24.11.2009 13:50:22> Error reading input parameter at 257.
+<24.11.2009 13:50:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:28> Uac: 223.000000
+<24.11.2009 13:50:28> Iac: 22583.000000
+<24.11.2009 13:50:28> Error reading input parameter at 257.
+<24.11.2009 13:50:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:34> Uac: 232.000000
+<24.11.2009 13:50:34> Iac: 20319.000000
+<24.11.2009 13:50:34> Error reading input parameter at 257.
+<24.11.2009 13:50:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:40> Uac: 219.000000
+<24.11.2009 13:50:40> Iac: 22649.000000
+<24.11.2009 13:50:40> Error reading input parameter at 257.
+<24.11.2009 13:50:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:47> Uac: 240.000000
+<24.11.2009 13:50:47> Iac: 22028.000000
+<24.11.2009 13:50:47> Error reading input parameter at 257.
+<24.11.2009 13:50:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:53> Uac: 226.000000
+<24.11.2009 13:50:53> Iac: 21089.000000
+<24.11.2009 13:50:53> Error reading input parameter at 257.
+<24.11.2009 13:50:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:50:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:50:59> Uac: 235.000000
+<24.11.2009 13:50:59> Iac: 22954.000000
+<24.11.2009 13:50:59> Error reading input parameter at 257.
+<24.11.2009 13:50:59> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:05> Uac: 231.000000
+<24.11.2009 13:51:05> Iac: 22425.000000
+<24.11.2009 13:51:05> Error reading input parameter at 257.
+<24.11.2009 13:51:05> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:11> Uac: 219.000000
+<24.11.2009 13:51:11> Iac: 23507.000000
+<24.11.2009 13:51:11> Error reading input parameter at 257.
+<24.11.2009 13:51:11> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:17> Uac: 229.000000
+<24.11.2009 13:51:17> Iac: 22868.000000
+<24.11.2009 13:51:17> Error reading input parameter at 257.
+<24.11.2009 13:51:17> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:22> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:23> Uac: 222.000000
+<24.11.2009 13:51:23> Iac: 20545.000000
+<24.11.2009 13:51:23> Error reading input parameter at 257.
+<24.11.2009 13:51:23> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:30> Uac: 219.000000
+<24.11.2009 13:51:30> Iac: 21244.000000
+<24.11.2009 13:51:30> Error reading input parameter at 257.
+<24.11.2009 13:51:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:36> Uac: 229.000000
+<24.11.2009 13:51:36> Iac: 24126.000000
+<24.11.2009 13:51:36> Error reading input parameter at 257.
+<24.11.2009 13:51:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:42> Uac: 226.000000
+<24.11.2009 13:51:42> Iac: 22337.000000
+<24.11.2009 13:51:42> Error reading input parameter at 257.
+<24.11.2009 13:51:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:48> Uac: 221.000000
+<24.11.2009 13:51:48> Iac: 21938.000000
+<24.11.2009 13:51:48> Error reading input parameter at 257.
+<24.11.2009 13:51:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:51:54> Uac: 226.000000
+<24.11.2009 13:51:54> Iac: 21207.000000
+<24.11.2009 13:51:54> Error reading input parameter at 257.
+<24.11.2009 13:51:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:51:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:00> Uac: 234.000000
+<24.11.2009 13:52:00> Iac: 22700.000000
+<24.11.2009 13:52:00> Error reading input parameter at 257.
+<24.11.2009 13:52:00> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:05> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:06> Uac: 221.000000
+<24.11.2009 13:52:06> Iac: 22277.000000
+<24.11.2009 13:52:06> Error reading input parameter at 257.
+<24.11.2009 13:52:06> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:11> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:12> Uac: 228.000000
+<24.11.2009 13:52:12> Iac: 21448.000000
+<24.11.2009 13:52:12> Error reading input parameter at 257.
+<24.11.2009 13:52:12> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:17> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:18> Uac: 234.000000
+<24.11.2009 13:52:18> Iac: 22231.000000
+<24.11.2009 13:52:18> Error reading input parameter at 257.
+<24.11.2009 13:52:18> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:23> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:24> Uac: 231.000000
+<24.11.2009 13:52:24> Iac: 23566.000000
+<24.11.2009 13:52:24> Error reading input parameter at 257.
+<24.11.2009 13:52:24> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:29> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:30> Uac: 236.000000
+<24.11.2009 13:52:30> Iac: 20127.000000
+<24.11.2009 13:52:30> Error reading input parameter at 257.
+<24.11.2009 13:52:30> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:35> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:36> Uac: 229.000000
+<24.11.2009 13:52:36> Iac: 21918.000000
+<24.11.2009 13:52:36> Error reading input parameter at 257.
+<24.11.2009 13:52:36> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:41> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:42> Uac: 239.000000
+<24.11.2009 13:52:42> Iac: 21501.000000
+<24.11.2009 13:52:42> Error reading input parameter at 257.
+<24.11.2009 13:52:42> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:48> Uac: 237.000000
+<24.11.2009 13:52:48> Iac: 22871.000000
+<24.11.2009 13:52:48> Error reading input parameter at 257.
+<24.11.2009 13:52:48> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:52:54> Uac: 224.000000
+<24.11.2009 13:52:54> Iac: 21278.000000
+<24.11.2009 13:52:54> Error reading input parameter at 257.
+<24.11.2009 13:52:54> Error: Could not read temperature from sunmeter
+<24.11.2009 13:52:59> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:00> Uac: 235.000000
+<24.11.2009 13:53:00> Iac: 22438.000000
+<24.11.2009 13:53:00> Error reading input parameter at 257.
+<24.11.2009 13:53:00> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:05> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:07> Uac: 230.000000
+<24.11.2009 13:53:07> Iac: 23694.000000
+<24.11.2009 13:53:07> Error reading input parameter at 257.
+<24.11.2009 13:53:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:13> Uac: 241.000000
+<24.11.2009 13:53:13> Iac: 21427.000000
+<24.11.2009 13:53:13> Error reading input parameter at 257.
+<24.11.2009 13:53:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:19> Uac: 237.000000
+<24.11.2009 13:53:19> Iac: 22744.000000
+<24.11.2009 13:53:19> Error reading input parameter at 257.
+<24.11.2009 13:53:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:25> Uac: 235.000000
+<24.11.2009 13:53:25> Iac: 22268.000000
+<24.11.2009 13:53:25> Error reading input parameter at 257.
+<24.11.2009 13:53:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:31> Uac: 225.000000
+<24.11.2009 13:53:31> Iac: 24099.000000
+<24.11.2009 13:53:31> Error reading input parameter at 257.
+<24.11.2009 13:53:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:37> Uac: 226.000000
+<24.11.2009 13:53:37> Iac: 23848.000000
+<24.11.2009 13:53:37> Error reading input parameter at 257.
+<24.11.2009 13:53:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:43> Uac: 227.000000
+<24.11.2009 13:53:43> Iac: 23687.000000
+<24.11.2009 13:53:43> Error reading input parameter at 257.
+<24.11.2009 13:53:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:49> Uac: 233.000000
+<24.11.2009 13:53:49> Iac: 20143.000000
+<24.11.2009 13:53:49> Error reading input parameter at 257.
+<24.11.2009 13:53:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:53:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:53:55> Uac: 238.000000
+<24.11.2009 13:53:55> Iac: 20799.000000
+<24.11.2009 13:53:55> Error reading input parameter at 257.
+<24.11.2009 13:53:55> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:00> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:01> Uac: 230.000000
+<24.11.2009 13:54:01> Iac: 21451.000000
+<24.11.2009 13:54:01> Error reading input parameter at 257.
+<24.11.2009 13:54:01> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:06> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:07> Uac: 233.000000
+<24.11.2009 13:54:07> Iac: 22371.000000
+<24.11.2009 13:54:07> Error reading input parameter at 257.
+<24.11.2009 13:54:07> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:12> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:13> Uac: 240.000000
+<24.11.2009 13:54:13> Iac: 21888.000000
+<24.11.2009 13:54:13> Error reading input parameter at 257.
+<24.11.2009 13:54:13> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:18> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:19> Uac: 241.000000
+<24.11.2009 13:54:19> Iac: 20541.000000
+<24.11.2009 13:54:19> Error reading input parameter at 257.
+<24.11.2009 13:54:19> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:24> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:25> Uac: 227.000000
+<24.11.2009 13:54:25> Iac: 22621.000000
+<24.11.2009 13:54:25> Error reading input parameter at 257.
+<24.11.2009 13:54:25> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:30> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:31> Uac: 224.000000
+<24.11.2009 13:54:31> Iac: 20368.000000
+<24.11.2009 13:54:31> Error reading input parameter at 257.
+<24.11.2009 13:54:31> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:36> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:37> Uac: 220.000000
+<24.11.2009 13:54:37> Iac: 22687.000000
+<24.11.2009 13:54:37> Error reading input parameter at 257.
+<24.11.2009 13:54:37> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:42> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:43> Uac: 238.000000
+<24.11.2009 13:54:43> Iac: 22920.000000
+<24.11.2009 13:54:43> Error reading input parameter at 257.
+<24.11.2009 13:54:43> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:48> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:49> Uac: 222.000000
+<24.11.2009 13:54:49> Iac: 22830.000000
+<24.11.2009 13:54:49> Error reading input parameter at 257.
+<24.11.2009 13:54:49> Error: Could not read temperature from sunmeter
+<24.11.2009 13:54:54> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:54:56> Uac: 234.000000
+<24.11.2009 13:54:56> Iac: 21437.000000
+<24.11.2009 13:54:56> Error reading input parameter at 257.
+<24.11.2009 13:54:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:02> Uac: 232.000000
+<24.11.2009 13:55:02> Iac: 20891.000000
+<24.11.2009 13:55:02> Error reading input parameter at 257.
+<24.11.2009 13:55:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:08> Uac: 219.000000
+<24.11.2009 13:55:08> Iac: 23678.000000
+<24.11.2009 13:55:08> Error reading input parameter at 257.
+<24.11.2009 13:55:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:14> Uac: 241.000000
+<24.11.2009 13:55:14> Iac: 22697.000000
+<24.11.2009 13:55:14> Error reading input parameter at 257.
+<24.11.2009 13:55:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:20> Uac: 236.000000
+<24.11.2009 13:55:20> Iac: 21880.000000
+<24.11.2009 13:55:20> Error reading input parameter at 257.
+<24.11.2009 13:55:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:26> Uac: 221.000000
+<24.11.2009 13:55:26> Iac: 24092.000000
+<24.11.2009 13:55:26> Error reading input parameter at 257.
+<24.11.2009 13:55:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:32> Uac: 231.000000
+<24.11.2009 13:55:32> Iac: 23953.000000
+<24.11.2009 13:55:32> Error reading input parameter at 257.
+<24.11.2009 13:55:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:38> Uac: 221.000000
+<24.11.2009 13:55:38> Iac: 21232.000000
+<24.11.2009 13:55:38> Error reading input parameter at 257.
+<24.11.2009 13:55:38> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:43> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:44> Uac: 223.000000
+<24.11.2009 13:55:44> Iac: 23708.000000
+<24.11.2009 13:55:44> Error reading input parameter at 257.
+<24.11.2009 13:55:44> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:49> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:50> Uac: 229.000000
+<24.11.2009 13:55:50> Iac: 22461.000000
+<24.11.2009 13:55:50> Error reading input parameter at 257.
+<24.11.2009 13:55:50> Error: Could not read temperature from sunmeter
+<24.11.2009 13:55:55> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:55:56> Uac: 240.000000
+<24.11.2009 13:55:56> Iac: 23336.000000
+<24.11.2009 13:55:56> Error reading input parameter at 257.
+<24.11.2009 13:55:56> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:01> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:02> Uac: 220.000000
+<24.11.2009 13:56:02> Iac: 20350.000000
+<24.11.2009 13:56:02> Error reading input parameter at 257.
+<24.11.2009 13:56:02> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:07> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:08> Uac: 224.000000
+<24.11.2009 13:56:08> Iac: 24029.000000
+<24.11.2009 13:56:08> Error reading input parameter at 257.
+<24.11.2009 13:56:08> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:13> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:14> Uac: 220.000000
+<24.11.2009 13:56:14> Iac: 20268.000000
+<24.11.2009 13:56:14> Error reading input parameter at 257.
+<24.11.2009 13:56:14> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:19> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:20> Uac: 220.000000
+<24.11.2009 13:56:20> Iac: 24000.000000
+<24.11.2009 13:56:20> Error reading input parameter at 257.
+<24.11.2009 13:56:20> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:25> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:26> Uac: 226.000000
+<24.11.2009 13:56:26> Iac: 23294.000000
+<24.11.2009 13:56:26> Error reading input parameter at 257.
+<24.11.2009 13:56:26> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:31> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:32> Uac: 227.000000
+<24.11.2009 13:56:32> Iac: 23172.000000
+<24.11.2009 13:56:32> Error reading input parameter at 257.
+<24.11.2009 13:56:32> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:37> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:39> Uac: 234.000000
+<24.11.2009 13:56:39> Iac: 21507.000000
+<24.11.2009 13:56:39> Error reading input parameter at 257.
+<24.11.2009 13:56:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:45> Uac: 227.000000
+<24.11.2009 13:56:45> Iac: 21250.000000
+<24.11.2009 13:56:45> Error reading input parameter at 257.
+<24.11.2009 13:56:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:51> Uac: 239.000000
+<24.11.2009 13:56:51> Iac: 20108.000000
+<24.11.2009 13:56:51> Error reading input parameter at 257.
+<24.11.2009 13:56:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:56:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:56:57> Uac: 229.000000
+<24.11.2009 13:56:57> Iac: 21990.000000
+<24.11.2009 13:56:57> Error reading input parameter at 257.
+<24.11.2009 13:56:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:03> Uac: 233.000000
+<24.11.2009 13:57:03> Iac: 20499.000000
+<24.11.2009 13:57:03> Error reading input parameter at 257.
+<24.11.2009 13:57:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:09> Uac: 239.000000
+<24.11.2009 13:57:09> Iac: 24359.000000
+<24.11.2009 13:57:09> Error reading input parameter at 257.
+<24.11.2009 13:57:09> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:14> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:15> Uac: 235.000000
+<24.11.2009 13:57:15> Iac: 23248.000000
+<24.11.2009 13:57:15> Error reading input parameter at 257.
+<24.11.2009 13:57:15> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:20> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:21> Uac: 219.000000
+<24.11.2009 13:57:21> Iac: 20479.000000
+<24.11.2009 13:57:21> Error reading input parameter at 257.
+<24.11.2009 13:57:21> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:26> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:27> Uac: 236.000000
+<24.11.2009 13:57:27> Iac: 21104.000000
+<24.11.2009 13:57:27> Error reading input parameter at 257.
+<24.11.2009 13:57:27> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:32> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:33> Uac: 239.000000
+<24.11.2009 13:57:33> Iac: 21194.000000
+<24.11.2009 13:57:33> Error reading input parameter at 257.
+<24.11.2009 13:57:33> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:38> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:39> Uac: 227.000000
+<24.11.2009 13:57:39> Iac: 22047.000000
+<24.11.2009 13:57:39> Error reading input parameter at 257.
+<24.11.2009 13:57:39> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:44> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:45> Uac: 238.000000
+<24.11.2009 13:57:45> Iac: 21251.000000
+<24.11.2009 13:57:45> Error reading input parameter at 257.
+<24.11.2009 13:57:45> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:50> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:51> Uac: 228.000000
+<24.11.2009 13:57:51> Iac: 22795.000000
+<24.11.2009 13:57:51> Error reading input parameter at 257.
+<24.11.2009 13:57:51> Error: Could not read temperature from sunmeter
+<24.11.2009 13:57:56> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:57:57> Uac: 229.000000
+<24.11.2009 13:57:57> Iac: 20849.000000
+<24.11.2009 13:57:57> Error reading input parameter at 257.
+<24.11.2009 13:57:57> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:02> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:03> Uac: 219.000000
+<24.11.2009 13:58:03> Iac: 20064.000000
+<24.11.2009 13:58:03> Error reading input parameter at 257.
+<24.11.2009 13:58:03> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:08> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:09> Uac: 236.000000
+<24.11.2009 13:58:09> Iac: 22388.000000
+<24.11.2009 13:58:10> Error reading input parameter at 257.
+<24.11.2009 13:58:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:16> Uac: 223.000000
+<24.11.2009 13:58:16> Iac: 21210.000000
+<24.11.2009 13:58:16> Error reading input parameter at 257.
+<24.11.2009 13:58:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:22> Uac: 238.000000
+<24.11.2009 13:58:22> Iac: 24276.000000
+<24.11.2009 13:58:22> Error reading input parameter at 257.
+<24.11.2009 13:58:22> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:27> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:28> Uac: 232.000000
+<24.11.2009 13:58:28> Iac: 22137.000000
+<24.11.2009 13:58:28> Error reading input parameter at 257.
+<24.11.2009 13:58:28> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:33> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:34> Uac: 230.000000
+<24.11.2009 13:58:34> Iac: 21356.000000
+<24.11.2009 13:58:34> Error reading input parameter at 257.
+<24.11.2009 13:58:34> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:39> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:40> Uac: 235.000000
+<24.11.2009 13:58:40> Iac: 20133.000000
+<24.11.2009 13:58:40> Error reading input parameter at 257.
+<24.11.2009 13:58:40> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:45> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:46> Uac: 232.000000
+<24.11.2009 13:58:46> Iac: 21620.000000
+<24.11.2009 13:58:46> Error reading input parameter at 257.
+<24.11.2009 13:58:46> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:51> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:52> Uac: 226.000000
+<24.11.2009 13:58:52> Iac: 21568.000000
+<24.11.2009 13:58:52> Error reading input parameter at 257.
+<24.11.2009 13:58:52> Error: Could not read temperature from sunmeter
+<24.11.2009 13:58:57> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:58:58> Uac: 233.000000
+<24.11.2009 13:58:58> Iac: 20705.000000
+<24.11.2009 13:58:58> Error reading input parameter at 257.
+<24.11.2009 13:58:58> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:03> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:04> Uac: 237.000000
+<24.11.2009 13:59:04> Iac: 22865.000000
+<24.11.2009 13:59:04> Error reading input parameter at 257.
+<24.11.2009 13:59:04> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:09> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:10> Uac: 220.000000
+<24.11.2009 13:59:10> Iac: 22849.000000
+<24.11.2009 13:59:10> Error reading input parameter at 257.
+<24.11.2009 13:59:10> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:15> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:16> Uac: 235.000000
+<24.11.2009 13:59:16> Iac: 23657.000000
+<24.11.2009 13:59:16> Error reading input parameter at 257.
+<24.11.2009 13:59:16> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:21> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:23> Uac: 226.000000
+<24.11.2009 13:59:23> Iac: 20485.000000
+<24.11.2009 13:59:23> Error reading input parameter at 257.
+<24.11.2009 13:59:23> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:29> Uac: 237.000000
+<24.11.2009 13:59:29> Iac: 21449.000000
+<24.11.2009 13:59:29> Error reading input parameter at 257.
+<24.11.2009 13:59:29> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:35> Uac: 231.000000
+<24.11.2009 13:59:35> Iac: 23548.000000
+<24.11.2009 13:59:35> Error reading input parameter at 257.
+<24.11.2009 13:59:35> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:41> Uac: 220.000000
+<24.11.2009 13:59:41> Iac: 23014.000000
+<24.11.2009 13:59:41> Error reading input parameter at 257.
+<24.11.2009 13:59:41> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:46> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:47> Uac: 225.000000
+<24.11.2009 13:59:47> Iac: 23699.000000
+<24.11.2009 13:59:47> Error reading input parameter at 257.
+<24.11.2009 13:59:47> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:52> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:53> Uac: 230.000000
+<24.11.2009 13:59:53> Iac: 21206.000000
+<24.11.2009 13:59:53> Error reading input parameter at 257.
+<24.11.2009 13:59:53> Error: Could not read temperature from sunmeter
+<24.11.2009 13:59:58> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 13:59:59> Uac: 238.000000
+<24.11.2009 13:59:59> Iac: 23035.000000
+<24.11.2009 13:59:59> Error reading input parameter at 257.
+<24.11.2009 13:59:59> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:04> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:05> Uac: 232.000000
+<24.11.2009 14:00:05> Iac: 23301.000000
+<24.11.2009 14:00:05> Error reading input parameter at 257.
+<24.11.2009 14:00:05> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:10> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:11> Uac: 227.000000
+<24.11.2009 14:00:11> Iac: 23484.000000
+<24.11.2009 14:00:11> Error reading input parameter at 257.
+<24.11.2009 14:00:11> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:16> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:17> Uac: 239.000000
+<24.11.2009 14:00:17> Iac: 23585.000000
+<24.11.2009 14:00:17> Error reading input parameter at 257.
+<24.11.2009 14:00:17> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:22> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:23> Uac: 232.000000
+<24.11.2009 14:00:23> Iac: 24371.000000
+<24.11.2009 14:00:23> Error reading input parameter at 257.
+<24.11.2009 14:00:23> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:28> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:29> Uac: 235.000000
+<24.11.2009 14:00:29> Iac: 24072.000000
+<24.11.2009 14:00:29> Error reading input parameter at 257.
+<24.11.2009 14:00:29> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:34> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:35> Uac: 237.000000
+<24.11.2009 14:00:35> Iac: 23389.000000
+<24.11.2009 14:00:35> Error reading input parameter at 257.
+<24.11.2009 14:00:35> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:40> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:41> Uac: 236.000000
+<24.11.2009 14:00:41> Iac: 23826.000000
+<24.11.2009 14:00:42> Error reading input parameter at 257.
+<24.11.2009 14:00:42> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:47> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:48> Uac: 225.000000
+<24.11.2009 14:00:48> Iac: 20576.000000
+<24.11.2009 14:00:48> Error reading input parameter at 257.
+<24.11.2009 14:00:48> Error: Could not read temperature from sunmeter
+<24.11.2009 14:00:53> Wechselrichter abfragen und in SQLite schreiben
+<24.11.2009 14:00:54> Uac: 230.000000
+<24.11.2009 14:00:54> Iac: 21003.000000
+<24.11.2009 14:00:54> Error reading input parameter at 257.
+<24.11.2009 14:00:54> Error: Could not read temperature from sunmeter

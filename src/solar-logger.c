@@ -19,13 +19,13 @@ if not, see <http://www.gnu.org/licenses/>.
 Solar-Logger - Ein Daemon zum loggen der Daten einer Solaranlage
 Copyright (C) 2007  Klaus Dotterweich (dr.dotti@gmx.de)
 
-Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License,
-wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren,
-entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
+Dieses Programm ist freie Software. Sie kï¿½nnen es unter den Bedingungen der GNU General Public License,
+wie von der Free Software Foundation verï¿½ffentlicht, weitergeben und/oder modifizieren,
+entweder gemï¿½ï¿½ Version 3 der Lizenz oder (nach Ihrer Option) jeder spï¿½teren Version.
 
-Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird,
+Die Verï¿½ffentlichung dieses Programms erfolgt in der Hoffnung, daï¿½ es Ihnen von Nutzen sein wird,
 aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder
-der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
+der VERWENDBARKEIT Fï¿½R EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
 
 Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben.
 Falls nicht, siehe <http://www.gnu.org/licenses/>.
@@ -34,7 +34,7 @@ Falls nicht, siehe <http://www.gnu.org/licenses/>.
 
 /**************************************************************************
 *
-*  Ein Deamon zum Überwachen und Loggen der Daten von SMA Wechselrichter
+*  Ein Deamon zum ï¿½berwachen und Loggen der Daten von SMA Wechselrichter
 *
 ***************************************************************************
 *  DateiName:	solar-logger.c
@@ -44,12 +44,14 @@ Falls nicht, siehe <http://www.gnu.org/licenses/>.
 #include "solar-logger.h"
 #include "daemon.h"
 #include "log.h"
+#include "sqlite3common.h"
+#include "logsqlite3.h"
+#include "logsunmeter.h"
 #include "timer.h"
 #include "wrerfassen.h"
 #include "kanalrech.h"
 #include "sollog.h"
 #include "solstatus.h"
-
 
 
 /**************************************************************************
@@ -72,9 +74,9 @@ int main(int argv, char **argc)
     ausgabe(TERM, DEBUGMINI, " and you are welcome to redistribute it under certain conditions.\n");
     ausgabe(TERM, DEBUGMINI, " For details see 'LICENSE.ENG.TXT'\n");
     ausgabe(TERM, DEBUGMINI, "\n");
-    ausgabe(TERM, DEBUGMINI, " Für dieses Programm besteht KEINERLEI GARANTIE. Dies ist freie Software, \n");
-    ausgabe(TERM, DEBUGMINI, " die Sie unter bestimmten Bedingungen weitergeben dürfen;\n");
-    ausgabe(TERM, DEBUGMINI, " Details können sie in der Datei 'LICENSE.DE.TXT' finden.\n");
+    ausgabe(TERM, DEBUGMINI, " Fï¿½r dieses Programm besteht KEINERLEI GARANTIE. Dies ist freie Software, \n");
+    ausgabe(TERM, DEBUGMINI, " die Sie unter bestimmten Bedingungen weitergeben dï¿½rfen;\n");
+    ausgabe(TERM, DEBUGMINI, " Details kï¿½nnen sie in der Datei 'LICENSE.DE.TXT' finden.\n");
     ausgabe(TERM, DEBUGMINI, "\n");
     ausgabe(TERM, DEBUGMINI, "******************************************************************************\n");
 
@@ -89,7 +91,7 @@ int main(int argv, char **argc)
 
 	timer();								// Zeiten aktualisieren
 	WRInit();								// WR Initialisieren
-	WRKanaeleINI();							// WR Kanäle Einstellen
+	WRKanaeleINI();							// WR Kanï¿½le Einstellen
 	LoggenINI();							// Einlesen des Loggen Bereiches der INI Datei
 	StatusINI();							// Einlesen des Status Bereiches der INI Datei
 
@@ -102,6 +104,11 @@ int main(int argv, char **argc)
 
 	ErrechneteKanaeleINI();					// Einlesen des ErrechneteKanaele Bereiches der INI Datei
 
+	init_sqlite3common("/tmp/test1.sqlite3");
+	init_logsqlite3();
+	init_logsunmeter();
+
+
     ausgabe(LOG, DEBUGMINI, "Initialisierung abgeschlossen\n");
 
     while(1)
@@ -109,16 +116,18 @@ int main(int argv, char **argc)
     	ausgabe(LOG, DEBUGALLES, "Eine neue Runde! :-) \n");
     	
  		timer();							// Zeiten aktualisieren
- 		WRErfassenWiederholen();			// WR Erfassung wiederholen wenn nötig
- 		ErrechneteKanaeleAktualisieren();	// Aktualisieren der Errechneten Kanäle
- 		LogGesamt();						// Erstellen der Log Gesamt Dateien
- 		Log();								// Erstellen der Log Dateien
- 		LogMonat();							// Erstellen der Log Monat Dateien
- 		StatusUebersichtGesamt();			// Erstellen der Staus Uebersicht Gesamt Dateien
- 		StatusUebersicht();					// Erstellen der Staus Uebersicht Dateien
+ 		WRErfassenWiederholen();			// WR Erfassung wiederholen wenn nï¿½tig
+ 		//ErrechneteKanaeleAktualisieren();	// Aktualisieren der Errechneten Kanï¿½le
+ 		//LogGesamt();						// Erstellen der Log Gesamt Dateien
+ 		//Log();								// Erstellen der Log Dateien
+ 		log_sqlite();
+ 		log_sunmeter();
+ 		//LogMonat();							// Erstellen der Log Monat Dateien
+ 		//StatusUebersichtGesamt();			// Erstellen der Staus Uebersicht Gesamt Dateien
+ 		//StatusUebersicht();					// Erstellen der Staus Uebersicht Dateien
  		
     	ausgabe(LOG, DEBUGALLES, "Jetzt schlafe ich 1 Sekunde.\n");
- 		sleep(1);							// leg dich 1 Sekunde schlafen keine gute Lösung wird noch Variabel gestaltet
+ 		sleep(5);							// leg dich 1 Sekunde schlafen keine gute Lï¿½sung wird noch Variabel gestaltet
     }
 
     ausgabe(LOG, DEBUGMINI, "Logger beenden.\n");
