@@ -4,13 +4,23 @@
 #include <sqlite3.h>
 #include "sqlite3common.h"
 #include "log.h"
+#include "yasdi/libyasdimaster.h"
 
 sqlite3* sqlite3db;
+char dbname[DBNAMEMAX];
 
-void init_sqlite3common(char* dbname) {
-	  //sqlite3_config( SQLITE_CONFIG_SINGLETHREAD );
 
+void init_sqlite3common() {
 	int retcode;
+	TRepository_GetElementStr("Sqlite.path",DEFAULT_DBNAME, dbname, DBNAMEMAX);
+	// I found that on the fritzBox the sqlite3 hangs if running multi-threaded:
+	// the point is a pthread_join in  testThreadLockingBehavior
+	if (sqlite3_threadsafe() == 0) {
+		ausgabe(LOG, DEBUGMINI, "SQLite compiled single threaded, good.\n", dbname);
+	} else {
+		sqlite3_config( SQLITE_CONFIG_SINGLETHREAD );
+		ausgabe(LOG, DEBUGMINI, "Set SQLite to single-threaded.\n", dbname);
+	}
 	ausgabe(LOG, DEBUGMINI, "Connecting to database %s\n", dbname);
 	retcode = sqlite3_initialize();
 	retcode = sqlite3_open(dbname, &sqlite3db);

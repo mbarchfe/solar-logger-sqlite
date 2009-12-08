@@ -19,13 +19,13 @@ if not, see <http://www.gnu.org/licenses/>.
 Solar-Logger - Ein Daemon zum loggen der Daten einer Solaranlage
 Copyright (C) 2007  Klaus Dotterweich (dr.dotti@gmx.de)
 
-Dieses Programm ist freie Software. Sie kï¿½nnen es unter den Bedingungen der GNU General Public License,
-wie von der Free Software Foundation verï¿½ffentlicht, weitergeben und/oder modifizieren,
-entweder gemï¿½ï¿½ Version 3 der Lizenz oder (nach Ihrer Option) jeder spï¿½teren Version.
+Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License,
+wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren,
+entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
 
-Die Verï¿½ffentlichung dieses Programms erfolgt in der Hoffnung, daï¿½ es Ihnen von Nutzen sein wird,
+Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird,
 aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder
-der VERWENDBARKEIT Fï¿½R EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
+der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
 
 Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben.
 Falls nicht, siehe <http://www.gnu.org/licenses/>.

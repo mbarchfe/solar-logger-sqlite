@@ -16,13 +16,25 @@ void init_logsqlite3() {
 void log_sqlite() {
 	int result;
 	time_t start;
-	ausgabe(LOG, DEBUGNORMAL, "Wechselrichter abfragen und in SQLite schreiben\n");
+	if (AnzahlErfassterWR == 0) {
+		ausgabe(LOG, DEBUGNORMAL, "Es sind keine Wechselrichter erfasst, überspringe log_sqlite.\n");
+		return;
+	}
+	// TODO: iteriere über AnzahlErfassterWR und nehme nicht nur den ersten
+	ausgabe(LOG, DEBUGNORMAL, "Wechselrichter abfragen und in SQLite schreiben.\n");
 	time(&start);
-	bind_int_to_insert_statement(stmt, 1, 0);
-	bind_int_to_insert_statement(stmt, 2, start);
-	bindChannelValue(3, "Uac");
-	bindChannelValue(4, "Iac");
-	exec_statement(stmt);
+	// if successful the result is zero
+	result = bind_int_to_insert_statement(stmt, 1, 0);
+	// TODO: result = bindChannelValue(1, "Serial Number");
+	result = result || bind_int_to_insert_statement(stmt, 2, start);
+	result = result || bindChannelValue(3, "Pac");
+	result = result || bindChannelValue(4, "E-Total");
+	if (result == 0) {
+		ausgabe(LOG, DEBUGNORMAL, "Insert statement erfolgreich vorbereitet.\n");
+		exec_statement(stmt);
+	} else {
+		ausgabe(LOG, DEBUGNORMAL, "Es konnten nicht alle Werte an das Insert statement gebunden werden.\n");
+	}
 }
 
 
@@ -43,6 +55,11 @@ int bindChannelValue(int index, char* channelName) {
 								WertText,
                                 Zeichen,
                                 3 /* max alter in secs */);
+    if (Ergebnis != 0) {
+    	// Bspw timeout
+    	ausgabe(LOG, DEBUGNORMAL, "Wert für channel %s konnte nicht ermittelt werden, Fehlercode von GetChannelValue ist %i.\n", channelName, Ergebnis);
+    	return Ergebnis;
+    }
     ausgabe(LOG, DEBUGNORMAL, "%s: %f\n", channelName, WertDouble);
     return bind_double_to_insert_statement(stmt, index, WertDouble);
 }

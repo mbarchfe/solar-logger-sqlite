@@ -80,7 +80,7 @@ int main(int argv, char **argc)
     ausgabe(TERM, DEBUGMINI, "\n");
     ausgabe(TERM, DEBUGMINI, "******************************************************************************\n");
 
-    start_daemon("solar-logger", LOG_LOCAL0);
+    //start_daemon("solar-logger", LOG_LOCAL0);
 
     if(!theonly_daemon())
     {										// Wenn Daemon bereits gestartet dann diesen sofort beenden.
@@ -96,18 +96,20 @@ int main(int argv, char **argc)
 	StatusINI();							// Einlesen des Status Bereiches der INI Datei
 
     ausgabe(LOG, DEBUGMINI, "Grundinitialisierung abgeschlossen\n");
+    
 
-	while(!(AnzahlErfassterWR == AnzahlSollWR))
-	{
- 		WRErfassenWiederholen();			// WR Erfassung so lange wiederholen bis alle WR erfasst
- 	}
+    // An dieser Stelle muss die WR-Erfassung nicht unbedingt komplett sein
+    // Auch wenn nicht alle WR erfasst sind, sollen die übrigen Wechselrichter und das Sunmeter ausgelesen werden
+	//while(!(AnzahlErfassterWR == AnzahlSollWR))
+	//{
+ 	//	WRErfassenWiederholen();			// WR Erfassung so lange wiederholen bis alle WR erfasst
+ 	//}
 
 	ErrechneteKanaeleINI();					// Einlesen des ErrechneteKanaele Bereiches der INI Datei
 
-	init_sqlite3common("/tmp/test1.sqlite3");
+	init_sqlite3common();
 	init_logsqlite3();
 	init_logsunmeter();
-
 
     ausgabe(LOG, DEBUGMINI, "Initialisierung abgeschlossen\n");
 
@@ -126,14 +128,14 @@ int main(int argv, char **argc)
  		//StatusUebersichtGesamt();			// Erstellen der Staus Uebersicht Gesamt Dateien
  		//StatusUebersicht();					// Erstellen der Staus Uebersicht Dateien
  		
-    	ausgabe(LOG, DEBUGALLES, "Jetzt schlafe ich 1 Sekunde.\n");
- 		sleep(5);							// leg dich 1 Sekunde schlafen keine gute L�sung wird noch Variabel gestaltet
+    	ausgabe(LOG, DEBUGALLES, "Jetzt schlafe ich erstmal.\n");
+ 		sleep(60);							// leg dich 1 Sekunde schlafen keine gute L�sung wird noch Variabel gestaltet
     }
 
     ausgabe(LOG, DEBUGMINI, "Logger beenden.\n");
 
 	WRShutdown();
-    stop_daemon();
+    //stop_daemon();
     return EXIT_SUCCESS;
 }
 

@@ -5,8 +5,9 @@
 // the global sqlite3 connection
 
 //extern sqlite3* sqlite3db;
-
-void init_sqlite3common(char* dbname);
+#define DEFAULT_DBNAME "/tmp/solarlogger.sqlite3"
+#define DBNAMEMAX 200
+void init_sqlite3common();
 void ensure_table(char* createTableStatement);
 sqlite3_stmt* create_statement(char* statement);
 void exec_statement(sqlite3_stmt* stmt);
