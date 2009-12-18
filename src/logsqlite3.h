@@ -10,6 +10,7 @@
 
 #define CREATE_TABLE_LOG_STMT "create table inverters (inverterid integer, time integer, pac double, etotal integer);"
 #define INSERT_LOG_STMT "INSERT INTO inverters VALUES (?,?,?,?);"
+#define DEVICE_NAME_LENGTH 50
 void log_sqlite();
 void init_logsqlite3();
 #endif /* LOGSQLITE_H_ */
