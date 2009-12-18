@@ -68,7 +68,7 @@ void log_sunmeter_repeatedly() {
 int log_sunmeter_internal1() {
 	int result;
 	int raw_param_value;
-	double precise_temperature;
+	int temperature;
 	time_t start;// secs_since_epoch, UTC
 
 	if (mb_param.fd == 0) {
@@ -89,10 +89,16 @@ int log_sunmeter_internal1() {
 		ausgabe(LOG, DEBUGMINI, "Error: Could not read temperature from sunmeter\n");
 		return READ_FAILED;
 	}
-	ausgabe(LOG, DEBUGNORMAL, " .. temperature: %i\n", raw_param_value >> 2);
-	precise_temperature = (raw_param_value >> 2) + (raw_param_value & 3) * 0.25;
-	ausgabe(LOG, DEBUGNORMAL, " .. precise temperature: %f\n", precise_temperature);
-	result = bind_int_to_insert_statement(stmt, 2, raw_param_value >> 2);
+	// temperature is 2-complement with 14 bits integer and 2 bits fraction
+	// the fraction could be considered by adding (or subtracting if negative)
+	temperature = raw_param_value>>2;
+	// if negative, fill with boolean 1 up to the size of int
+	if (temperature & 0x2000) {
+		// 0x3fff is 2^14-1
+		temperature = (~0x3fff) + temperature;
+	}
+	ausgabe(LOG, DEBUGNORMAL, " .. temperature: %i\n", temperature);
+	result = bind_int_to_insert_statement(stmt, 2, temperature);
 	if (result != 0) {
 		ausgabe(LOG, DEBUGMINI, "Error: temperature could not be bound to insert statement\n");
 		return LOG_ERROR;
