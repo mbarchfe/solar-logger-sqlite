@@ -4,7 +4,7 @@ database_file=${1:-db.sqlite3}
 
 server_user=markus
 server_password=markus
-server_url=http://localhost:7000
+server_url=http://solarlogger
 tmp_csv_file=/tmp/csv.txt
 inverters="2100147669 2100147715" 
 
@@ -25,34 +25,34 @@ exec_sql() {
 }
 
 upload() {
-  url_file_part=$1
+  device_id=$1
   file=$2
   if [ ! -s $file ]; then
     echo "$file is empty, not uploading"
     return
   fi;
-  url=$server_url/upload/$url_file_part
+  url=$server_url/upload/device/$device_id
   echo "Uploading $file to $url"
   result=`curl -u $server_user:$server_password --request PUT $url -T $file`
   echo "Upload result: $result"
 }
 
 get_latest_upload_time() {
-  kind=$1
-  url=$server_url/latestupload/$kind
+  device_id=$1
+  url=$server_url/latestupload/device/$device_id
   latest_time=`curl -s -S -u $server_user:$server_password $url`
   echo $latest_time
 }
 
-latest_time=$(get_latest_upload_time "environment");
+latest_time=$(get_latest_upload_time "sunmeter");
 exec_sql "select time, irradiance, temperature from environment where time>$latest_time;"
-upload "environment" $tmp_csv_file
+upload "sunmeter" $tmp_csv_file
 
 for inverter in $inverters
 do
-  latest_time=$(get_latest_upload_time "inverter/$inverter");
+  latest_time=$(get_latest_upload_time "$inverter");
   exec_sql "select time, pac, etotal from inverters where time>$latest_time and inverterid=$inverter;"
-  upload "inverter/$inverter" $tmp_csv_file
+  upload "$inverter" $tmp_csv_file
 done
 
 rm_tmp_file
