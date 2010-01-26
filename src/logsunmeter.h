@@ -21,5 +21,5 @@
 
 void log_sunmeter();
 void init_logsunmeter();
-
+void write_status(int);
 #endif /* LOGSUNMETER_H_ */

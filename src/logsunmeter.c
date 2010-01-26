@@ -63,6 +63,27 @@ void log_sunmeter_repeatedly() {
 	if (read_return != READ_SUCCESSFULLY) {
 		ausgabe(LOG, DEBUGMINI, "Error: Could not read data from sunmeter.\n");
 	}
+	write_status(read_return);
+}
+
+void write_status(int read_return) {
+	// write status to file so that an external watchdog
+	// can check the status and restart this process if necessary
+   	char	DateiBuffer[200] = {0};
+   	FILE	*Datei = NULL;
+   	TRepository_GetElementStr ("Sunmeter.Statusfile", "/tmp/sunmeterstatus.txt", DateiBuffer, 200);
+    Datei = fopen(DateiBuffer, "w");
+    if (!Datei)
+    {
+        ausgabe(LOG, DEBUGMINI, "Sunmeter statusDatei %s konnte nicht geoeffnet werden!!!\n", DateiBuffer);
+        return;
+    }
+    if (read_return == READ_SUCCESSFULLY) {
+    	fprintf(Datei, "OK");
+    } else {
+    	fprintf(Datei, "ERROR");
+    }
+    fclose(Datei);
 }
 
 int log_sunmeter_internal1() {
