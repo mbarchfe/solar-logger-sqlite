@@ -47,7 +47,7 @@ Falls nicht, siehe <http://www.gnu.org/licenses/>.
 #include "log.h"
 #include "wrerfassen.h"
 
-#include "ftplib/ftplib.h"
+#include "ftplib.h"
 
 
 
