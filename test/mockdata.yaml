@@ -1,0 +1,45 @@
+[
+{ 
+  "name": "modbus_read_temperature",
+  "request": "01 04 01 01 00 01 61 f6",
+  "response": "01 04 02 00 14 b9 3f"
+},
+{ 
+  "name": 'modbus_read_irradiance',
+  "request":  "01 04 01 00 00 01 30 36",
+  "response": "01 04 02 00 55 79 0f"
+},
+{ 
+  "name": 'inverter_init',
+  "request":  "7e ff 03 40 41 00 00 00 00 80 00 06 d7 c0 7e",
+  "response": "7e ff 03 40 41 f1 ff 00 00 40 00 06 03 b6 2d 7d 5d 57 52 54 4c 31 45 42 39 ef c4 7e"
+  # another inverter could reply here 7e ff 03 40 41 ff ff 00 00 40 00 06 d5 b5 2d 7d 5d 57 52 54 4c 31 45 42 39 60 18 7e"
+},
+{ 
+   # not needed since inverter_init is answered
+  "name": 'inverter_set_addr',
+  "request": "7e ff 03 40 41 00 00 00 00 80 00 03 03 b6 2d 7d 5d f1 ff fb 6d 7e",
+  "response": "7e ff 03 40 41 f1 ff 00 00 40 00 03 03 b6 2d 7d 5d db c5 7e"
+  # SN = 03 b6 2d 7d 5d
+  # 0x03*2**0+0xb6*2**8+0x2d*2**16+0x7d*2**24=2100147715
+  # Netzadresse= f1ff
+},
+{ 
+  "name": "request_channel_list",
+  "request": "7e ff 03 40 41 f1 ff 00 00 40 00 03 03 b6 2d 7d 5d db c5 7e",
+  "response": ""
+  # TODO
+},
+{ 
+  "name": "sync_online",
+  # includes timestamp?
+  "request":  "7e ff 03 40 41 00 00 00 00 80 0.*7e",
+  "response": ""
+},
+{
+  "name": "get_spot",
+  "request": "7e ff 03 40 41 00 00 f1 ff 00 00 0b 0f 09 00 1f 50 7e",
+  "response": "7e ff 03 40 41 f1 ff 00 00 40 00 0b 0f 09 00 01 00 b2 8d 69 4b 01 00 00 00 00 00 00 00 00 ae 26 47 00 00 eb 43 00 6a 14 47 00 00 32 43 00 4c 26 47 00 00 e4 43 00 5f 03 47 00 00 19 43 00 00 a1 43 86 7d 33 00 00 00 00 a1 43 00 00 00 00 4c 05 00 00 00 00 00 00 00 00 00 00 d9 5c 00 00 00 00 00 00 00 00 00 00 00 00 a1 43 00 00 00 00 00 00 00 00 00 76 1c 47 00 00 ff 43 00 00 4d 43 00 80 ea 43 00 00 8d 43 00 00 20 41 c0 c6 2d 00 ad 2f 01 00 41 56 0f 00 a7 54 7d 31 00 ad 2f 01 00 41 56 0f 00 ab 54 7d 31 00 42 00 00 00 42 00 00 00 00 00 00 00 03 b6 2d 7d 5d 2e 00 00 00 0b 00 00 00 38 00 00 00 f6 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 02 00 00 00 01 00 00 00 01 00 00 00 21 79 7e"
+}
+	
+]
