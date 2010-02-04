@@ -4,3 +4,4 @@ autom4te.cache
 config.status
 devices
 solar-logger
+Makefile
