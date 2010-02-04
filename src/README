@@ -1,0 +1,8 @@
+Solar-logger 
+
+This package is based on solar-logger-0.2.1. The solar-logger has been patched to write into an sqlite3 database
+and to retrieve data from a sunmeter in addition to SMA inverters.
+
+For installation instructions see INSTALL.
+
+If you have collected data in your sqlite3 database, you might want to synchronize it with the solar-logger server.

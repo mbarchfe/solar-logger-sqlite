@@ -24,3 +24,8 @@ ModbusDebug=1
 [WR]
 Anzahl=1;
 ErfassungsIntervall=0;
+
+If you have an inverter connected and want to sniff the communication and add it to mockdata.yaml
+have a look at analyze_logfile.rb.
+
+Check /tmp/serialmock.log for the status of the emulation and to see received and sent data.

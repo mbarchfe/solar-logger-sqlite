@@ -29,8 +29,11 @@ void init_logsunmeter() {
 }
 
 int connectToModbus() {
+	char	DeviceBuffer[200] = {0};
+   	TRepository_GetElementStr ("COM1.Device", "/dev/ttyUSB0", DeviceBuffer, 200);
 	/* RTU parity : none, even, odd */
-	modbus_init_rtu(&mb_param, "/dev/ttyUSB0", TRepository_GetElementInt("Sunmeter.BaudRate", DEFAULT_BAUD_RATE), "none", 8, 1);
+
+	modbus_init_rtu(&mb_param, DeviceBuffer, TRepository_GetElementInt("Sunmeter.BaudRate", DEFAULT_BAUD_RATE), "none", 8, 1);
 	// TODO: also suppress error messages from modbus since Communication Timeout occurs quite frequently
 	modbus_set_debug(&mb_param,  TRepository_GetElementInt("Sunmeter.ModbusDebug", FALSE));
 }
