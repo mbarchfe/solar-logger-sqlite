@@ -1,11 +1,3 @@
-
-#require 'pty'
-#stdin, stdout, childpid = PTY.spawn("/bin/csh")
-
-#require 'open3'
-
-#stdin, stdout, stderr = Open3.popen3('/bin/sh < /dev/ptmx')
-# select( [$stdin], nil, nil, 1.5 )
 require 'yaml'
 
 def conv_hex(a)
@@ -27,8 +19,6 @@ f.flush
 @read = []
 
 $stdin.each_byte { |b|
- #printf f, "%0x ",b
- #f.flush
  @read << b
  a_ser = serialize(@read)
  f.write(a_ser)
