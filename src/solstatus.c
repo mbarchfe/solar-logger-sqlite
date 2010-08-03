@@ -19,13 +19,13 @@ if not, see <http://www.gnu.org/licenses/>.
 Solar-Logger - Ein Daemon zum loggen der Daten einer Solaranlage
 Copyright (C) 2007  Klaus Dotterweich (dr.dotti@gmx.de)
 
-Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License,
-wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren,
-entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
+Dieses Programm ist freie Software. Sie kï¿½nnen es unter den Bedingungen der GNU General Public License,
+wie von der Free Software Foundation verï¿½ffentlicht, weitergeben und/oder modifizieren,
+entweder gemï¿½ï¿½ Version 3 der Lizenz oder (nach Ihrer Option) jeder spï¿½teren Version.
 
-Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird,
+Die Verï¿½ffentlichung dieses Programms erfolgt in der Hoffnung, daï¿½ es Ihnen von Nutzen sein wird,
 aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder
-der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
+der VERWENDBARKEIT Fï¿½R EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
 
 Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben.
 Falls nicht, siehe <http://www.gnu.org/licenses/>.
@@ -53,34 +53,34 @@ Falls nicht, siehe <http://www.gnu.org/licenses/>.
 
 // Globale Variable
 int		StatusUebersichtGesamtOutputTypeAnzahl = 0;						// Anzahl der AusgabeArten
-int 	StatusUebersichtGesamtOutputType[OUTPUTTYPEMAX]={0};			// Wie oder Wo sollen die Daten gespeichert oder Übertragen werden (Local, FTP, HTTP-Post)
-char	StatusUebersichtGesamtOutput[OUTPUTTYPEMAX][100]={0};			// AusgabeDateiAnfang für die UebersichtGesamt Dateien
-char	StatusUebersichtGesamtOutputServer[OUTPUTTYPEMAX][100]={0};		// Server für die UebersichtGesamt Dateien
-char	StatusUebersichtGesamtOutputUser[OUTPUTTYPEMAX][100]={0};		// User für die UebersichtGesamt Dateien
-char	StatusUebersichtGesamtOutputPW[OUTPUTTYPEMAX][100]={0};			// PW für die UebersichtGesamt Dateien
-int		StatusUebersichtGesamtOutputFormat[OUTPUTTYPEMAX]={0};			// Format der AusgabeDatei für die UebersichtGesamt (txt, csv, ...)
+int 	StatusUebersichtGesamtOutputType[OUTPUTTYPEMAX]={0};			// Wie oder Wo sollen die Daten gespeichert oder ï¿½bertragen werden (Local, FTP, HTTP-Post)
+char	StatusUebersichtGesamtOutput[OUTPUTTYPEMAX][100]={0};			// AusgabeDateiAnfang fï¿½r die UebersichtGesamt Dateien
+char	StatusUebersichtGesamtOutputServer[OUTPUTTYPEMAX][100]={0};		// Server fï¿½r die UebersichtGesamt Dateien
+char	StatusUebersichtGesamtOutputUser[OUTPUTTYPEMAX][100]={0};		// User fï¿½r die UebersichtGesamt Dateien
+char	StatusUebersichtGesamtOutputPW[OUTPUTTYPEMAX][100]={0};			// PW fï¿½r die UebersichtGesamt Dateien
+int		StatusUebersichtGesamtOutputFormat[OUTPUTTYPEMAX]={0};			// Format der AusgabeDatei fï¿½r die UebersichtGesamt (txt, csv, ...)
 long	StatusUebersichtGesamtIntervallZeit = 0;						// Intervall zum erstellen der StatusUebersichtGesamt Dateien in Sekunden
 long	StatusUebersichtGesamtLetzteIntervallZeit = 0;					// Zeitpunkt des letzten StatusUebersichtGesamt
 
 int		StatusUebersichtOutputTypeAnzahl = 0;							// Anzahl der AusgabeArten
-int 	StatusUebersichtOutputType[OUTPUTTYPEMAX]={0};					// Wie oder Wo sollen die Daten gespeichert oder Übertragen werden (Local, FTP, HTTP-Post)
-char	StatusUebersichtOutput[OUTPUTTYPEMAX][100]={0};					// AusgabeDateiAnfang für die UebersichtGesamt Dateien
-char	StatusUebersichtOutputServer[OUTPUTTYPEMAX][100]={0};			// Server für die UebersichtGesamt Dateien
-char	StatusUebersichtOutputUser[OUTPUTTYPEMAX][100]={0};				// User für die UebersichtGesamt Dateien
-char	StatusUebersichtOutputPW[OUTPUTTYPEMAX][100]={0};				// PW für die UebersichtGesamt Dateien
-int		StatusUebersichtOutputFormat[OUTPUTTYPEMAX]={0};				// Format der AusgabeDatei für die UebersichtGesamt (txt, csv, ...)
+int 	StatusUebersichtOutputType[OUTPUTTYPEMAX]={0};					// Wie oder Wo sollen die Daten gespeichert oder ï¿½bertragen werden (Local, FTP, HTTP-Post)
+char	StatusUebersichtOutput[OUTPUTTYPEMAX][100]={0};					// AusgabeDateiAnfang fï¿½r die UebersichtGesamt Dateien
+char	StatusUebersichtOutputServer[OUTPUTTYPEMAX][100]={0};			// Server fï¿½r die UebersichtGesamt Dateien
+char	StatusUebersichtOutputUser[OUTPUTTYPEMAX][100]={0};				// User fï¿½r die UebersichtGesamt Dateien
+char	StatusUebersichtOutputPW[OUTPUTTYPEMAX][100]={0};				// PW fï¿½r die UebersichtGesamt Dateien
+int		StatusUebersichtOutputFormat[OUTPUTTYPEMAX]={0};				// Format der AusgabeDatei fï¿½r die UebersichtGesamt (txt, csv, ...)
 long	StatusUebersichtIntervallZeit = 0;								// Intervall zum erstellen der StatusUebersichtGesamt Dateien in Sekunden
 long	StatusUebersichtLetzteIntervallZeit = 0;						// Zeitpunkt des letzten StatusUebersichtGesamt
-int		StatusUebersichtKanalAnzahl = 0;								// Anzahl der Kanäle
-char	StatusUebersichtKanal[KANALMAX][20]={0};						// Namen der Kanäle
+int		StatusUebersichtKanalAnzahl = 0;								// Anzahl der Kanï¿½le
+char	StatusUebersichtKanal[KANALMAX][20]={0};						// Namen der Kanï¿½le
 
 int		StatusOutputTypeAnzahl = 0;										// Anzahl der AusgabeArten
-int 	StatusOutputType[OUTPUTTYPEMAX]={0};							// Wie oder Wo sollen die Daten gespeichert oder Übertragen werden (Local, FTP, HTTP-Post)
-char	StatusOutput[OUTPUTTYPEMAX][100]={0};							// AusgabeDateiAnfang für die UebersichtGesamt Dateien
-char	StatusOutputServer[OUTPUTTYPEMAX][100]={0};						// Server für die UebersichtGesamt Dateien
-char	StatusOutputUser[OUTPUTTYPEMAX][100]={0};						// User für die UebersichtGesamt Dateien
-char	StatusOutputPW[OUTPUTTYPEMAX][100]={0};							// PW für die UebersichtGesamt Dateien
-int		StatusOutputFormat[OUTPUTTYPEMAX]={0};							// Format der AusgabeDatei für die UebersichtGesamt (txt, csv, ...)
+int 	StatusOutputType[OUTPUTTYPEMAX]={0};							// Wie oder Wo sollen die Daten gespeichert oder ï¿½bertragen werden (Local, FTP, HTTP-Post)
+char	StatusOutput[OUTPUTTYPEMAX][100]={0};							// AusgabeDateiAnfang fï¿½r die UebersichtGesamt Dateien
+char	StatusOutputServer[OUTPUTTYPEMAX][100]={0};						// Server fï¿½r die UebersichtGesamt Dateien
+char	StatusOutputUser[OUTPUTTYPEMAX][100]={0};						// User fï¿½r die UebersichtGesamt Dateien
+char	StatusOutputPW[OUTPUTTYPEMAX][100]={0};							// PW fï¿½r die UebersichtGesamt Dateien
+int		StatusOutputFormat[OUTPUTTYPEMAX]={0};							// Format der AusgabeDatei fï¿½r die UebersichtGesamt (txt, csv, ...)
 long	StatusIntervallZeit = 0;										// Intervall zum erstellen der StatusUebersichtGesamt Dateien in Sekunden
 long	StatusLetzteIntervallZeit = 0;									// Zeitpunkt des letzten StatusUebersichtGesamt
 
@@ -234,7 +234,7 @@ void StatusINI(void)
 
 
 /**************************************************************************
-   Description   : Erstellen einer StatusDatei je WR mit allen Kanälen
+   Description   : Erstellen einer StatusDatei je WR mit allen Kanï¿½len
    Parameter     : (none)
    Return-Value  : (none)
    Changes       : Author, 		Date, 		Version, 	Reason
@@ -260,14 +260,14 @@ void StatusUebersichtGesamtDatei(char *Pfad, char *OutputDatei, int Format)
         GetDeviceType(WRHandles[Zaehler - 1], TypeBuffer, sizeof(TypeBuffer)-1);
         GetDeviceSN(WRHandles[Zaehler - 1], &SNBuffer);
 
-        ausgabe(LOG, DEBUGALLES, "StatusUebersichtGesamtDatei für WR %3ld erstellen\n", SNBuffer);
+        ausgabe(LOG, DEBUGALLES, "StatusUebersichtGesamtDatei fï¿½r WR %3ld erstellen\n", SNBuffer);
 
         sprintf(DateiBuffer, "%s/%3ld.%s.%s", Pfad, SNBuffer, TypeBuffer, OutputDatei);
 
         Datei = fopen(DateiBuffer, "w");
         if (!Datei)
         {
-            ausgabe(LOG, DEBUGMINI, "StatusDatei %s konnte nicht geöffnet werden!!!\n", DateiBuffer);
+            ausgabe(LOG, DEBUGMINI, "StatusDatei %s konnte nicht geï¿½ffnet werden!!!\n", DateiBuffer);
             return;
         }
         else
@@ -288,13 +288,13 @@ void StatusUebersichtGesamtDatei(char *Pfad, char *OutputDatei, int Format)
             KanalAnzahl = GetChannelHandlesEx(WRHandles[Zaehler - 1], KanalHandle, KANALMAX, KanalType);
             GetZeitpunkt(ZeitpunktBuffer, sizeof(ZeitpunktBuffer)-1);
 
-            fprintf(Datei, "WR '%s' hat %d Kanäle:\r\n", NameBuffer, KanalAnzahl);
+            fprintf(Datei, "WR '%s' hat %d Kanï¿½le:\r\n", NameBuffer, KanalAnzahl);
 
             fprintf(Datei, "--------------------------------------------------------------------\r\n");
             fprintf(Datei, " Kanal Handle  |     KanalName      |             Wert             |\r\n");
             fprintf(Datei, "--------------------------------------------------------------------\r\n");
 
-			// Kanäle der WR
+			// Kanï¿½le der WR
             for(i = 0; i < KanalAnzahl; i++)
             {
             	GetChannelName(KanalHandle[i], KanalName, sizeof(KanalName)-1);
@@ -360,14 +360,14 @@ void StatusUebersichtDatei(char *Pfad, char *OutputDatei, int Format)
         GetDeviceType(WRHandles[Zaehler - 1], TypeBuffer, sizeof(TypeBuffer)-1);
         GetDeviceSN(WRHandles[Zaehler - 1], &SNBuffer);
 
-        ausgabe(LOG, DEBUGALLES, "StatusUebersichtDatei für WR %3ld erstellen\n", SNBuffer);
+        ausgabe(LOG, DEBUGALLES, "StatusUebersichtDatei fï¿½r WR %3ld erstellen\n", SNBuffer);
 
         sprintf(DateiBuffer, "%s/%3ld.%s.%s", Pfad, SNBuffer, TypeBuffer, OutputDatei);
 
         Datei = fopen(DateiBuffer, "w");
         if (!Datei)
         {
-            ausgabe(LOG, DEBUGMINI, "StatusDatei %s konnte nicht geöffnet werden!!!\n", DateiBuffer);
+            ausgabe(LOG, DEBUGMINI, "StatusDatei %s konnte nicht geï¿½ffnet werden!!!\n", DateiBuffer);
             return;
         }
         else
@@ -383,7 +383,7 @@ void StatusUebersichtDatei(char *Pfad, char *OutputDatei, int Format)
             ausgabe(LOG, DEBUGALLES, "Ausgabe in Datei %s wird gestartet.\n", DateiBuffer);
             setbuf(Datei, 0);                      									// Pufferung abschalten
 
-            fprintf(Datei, "WR '%s' Status Übersicht\r\n", NameBuffer);
+            fprintf(Datei, "WR '%s' Status ï¿½bersicht\r\n", NameBuffer);
 
             fprintf(Datei, "--------------------------------------------------------------------\r\n");
             fprintf(Datei, " Kanal Handle  |     KanalName      |             Wert             |\r\n");
@@ -472,15 +472,15 @@ void StatusUebersichtGesamt(void)
 		AnzahlErfassterWR == 0 ||																	// ODER Wenn keine WR erfasst
 		!(AnzahlSollWR == AnzahlErfassterWR) ||														// ODER Wenn nicht alle WR erfasst
 		!ErrechneteKanaeleAktualisierenErfolgreich ||												// ODER Wenn ErrechneteKanaeleAktualisieren nicht erfolgreich
-		(KanalAbfragenMoeglich() == -1))															// ODER Wenn WR Abfrage nicht möglich
-	{																								// Dann StatusÜbersichtGesamt Abbrechen
+		(KanalAbfragenMoeglich() == -1))															// ODER Wenn WR Abfrage nicht mï¿½glich
+	{																								// Dann Statusï¿½bersichtGesamt Abbrechen
 		return;
 	}
 
 	ausgabe(LOG, DEBUGALLES, "StatusUebersichtGesamt gestartet!!!\n");
  	ausgabe(LOG, DEBUGALLES, "Sekunden: %u\n", SekundenZeit);
 
-	StatusUebersichtGesamtLetzteIntervallZeit = SekundenZeit;					// StatusÜbersichtGesamt erst nach ablauf der nächsten Intervallzeit wieder starten
+	StatusUebersichtGesamtLetzteIntervallZeit = SekundenZeit;					// Statusï¿½bersichtGesamt erst nach ablauf der nï¿½chsten Intervallzeit wieder starten
 
 	for(Zaehler = 1; Zaehler <= StatusUebersichtGesamtOutputTypeAnzahl; Zaehler++)
 	{
@@ -499,10 +499,10 @@ void StatusUebersichtGesamt(void)
                 Tools_PathExtractFile(OutputDatei, StatusUebersichtGesamtOutput[Zaehler - 1], sizeof(StatusUebersichtGesamtOutput[Zaehler - 1])-1 );
 				ausgabe(LOG, DEBUGALLES, "StatusUebersichtGesamt 'FTP' gestartet!!!\n");
 				StatusUebersichtGesamtDatei(Pfad, OutputDatei, StatusUebersichtGesamtOutputFormat[Zaehler - 1]);
-				Ergebnis = FTPDateienSenden(Pfad, OutputDatei,
-											StatusUebersichtGesamtOutputServer[Zaehler - 1],
-											StatusUebersichtGesamtOutputUser[Zaehler - 1],
-											StatusUebersichtGesamtOutputPW[Zaehler - 1]);
+//				Ergebnis = FTPDateienSenden(Pfad, OutputDatei,
+//											StatusUebersichtGesamtOutputServer[Zaehler - 1],
+//											StatusUebersichtGesamtOutputUser[Zaehler - 1],
+//											StatusUebersichtGesamtOutputPW[Zaehler - 1]);
 				break;
 		}
 	}
@@ -532,15 +532,15 @@ void StatusUebersicht(void)
 		AnzahlErfassterWR == 0 ||																	// ODER Wenn keine WR erfasst
 		!(AnzahlSollWR == AnzahlErfassterWR) ||														// ODER Wenn nicht alle WR erfasst
 		!ErrechneteKanaeleAktualisierenErfolgreich ||												// ODER Wenn ErrechneteKanaeleAktualisieren nicht erfolgreich
-		(KanalAbfragenMoeglich() == -1))															// ODER Wenn WR Abfrage nicht möglich
-	{																								// Dann StatusÜbersicht Abbrechen
+		(KanalAbfragenMoeglich() == -1))															// ODER Wenn WR Abfrage nicht mï¿½glich
+	{																								// Dann Statusï¿½bersicht Abbrechen
 		return;
 	}
 
 	ausgabe(LOG, DEBUGALLES, "StatusUebersicht gestartet!!!\n");
  	ausgabe(LOG, DEBUGALLES, "Sekunden: %u\n", SekundenZeit);
 
-	StatusUebersichtLetzteIntervallZeit = SekundenZeit;							// StatusUebrsicht erst nach ablauf der nächsten Intervallzeit wieder starten
+	StatusUebersichtLetzteIntervallZeit = SekundenZeit;							// StatusUebrsicht erst nach ablauf der nï¿½chsten Intervallzeit wieder starten
 
 	for(Zaehler = 1; Zaehler <= StatusUebersichtOutputTypeAnzahl; Zaehler++)
 	{
@@ -559,10 +559,10 @@ void StatusUebersicht(void)
                 Tools_PathExtractFile(OutputDatei, StatusUebersichtOutput[Zaehler - 1], sizeof(StatusUebersichtOutput[Zaehler - 1])-1 );
 				ausgabe(LOG, DEBUGALLES, "StatusUebersicht 'FTP' gestartet!!!\n");
 				StatusUebersichtDatei(Pfad, OutputDatei, StatusUebersichtOutputFormat[Zaehler - 1]);
-				Ergebnis = FTPDateienSenden(Pfad, OutputDatei,
-											StatusUebersichtOutputServer[Zaehler - 1],
-											StatusUebersichtOutputUser[Zaehler - 1],
-											StatusUebersichtOutputPW[Zaehler - 1]);
+//				Ergebnis = FTPDateienSenden(Pfad, OutputDatei,
+//											StatusUebersichtOutputServer[Zaehler - 1],
+//											StatusUebersichtOutputUser[Zaehler - 1],
+//											StatusUebersichtOutputPW[Zaehler - 1]);
 				break;
 		}
 	}
@@ -622,13 +622,13 @@ void StatusDatei(DWORD SN, char *Type, char *Name, char *WertText)
         Datei = fopen(DateiBuffer, "w");
         if (!Datei)
         {
-            ausgabe(LOG, DEBUGMINI, "Datei %s konnte nicht geöffnet werden!!!\n", DateiBuffer);
+            ausgabe(LOG, DEBUGMINI, "Datei %s konnte nicht geï¿½ffnet werden!!!\n", DateiBuffer);
         }
         else
         {
         	char *Temp = WertText;
 
-            ausgabe(LOG, DEBUGALLES, "Datei %s wurde geöffnet!!!\n", DateiBuffer);
+            ausgabe(LOG, DEBUGALLES, "Datei %s wurde geï¿½ffnet!!!\n", DateiBuffer);
             GetZeitpunkt(ZeitpunktBuffer, sizeof(ZeitpunktBuffer)-1);
 
             while(*Temp==' ')
@@ -643,11 +643,11 @@ void StatusDatei(DWORD SN, char *Type, char *Name, char *WertText)
             switch(StatusOutputType[Zaehler - 1])
             {
                 case 2:                                                                     // "FTP"
-                    ausgabe(LOG, DEBUGALLES, "Status FTP Übertragung starten!!!\n");
-					FTPDateiSenden(DateiBuffer, DateiBufferFTP,
-								   StatusOutputServer[Zaehler - 1],
-                                   StatusOutputUser[Zaehler - 1],
-                                   StatusOutputPW[Zaehler - 1]);
+                    ausgabe(LOG, DEBUGALLES, "Status FTP ï¿½bertragung starten!!!\n");
+//					FTPDateiSenden(DateiBuffer, DateiBufferFTP,
+//								   StatusOutputServer[Zaehler - 1],
+//                                   StatusOutputUser[Zaehler - 1],
+//                                   StatusOutputPW[Zaehler - 1]);
                     break;
             }
         }
@@ -657,7 +657,7 @@ void StatusDatei(DWORD SN, char *Type, char *Name, char *WertText)
 
 
 /**************************************************************************
-   Description   : Erstellen der Status Dateien der WR Kanäle
+   Description   : Erstellen der Status Dateien der WR Kanï¿½le
    Parameter     : (none)
    Return-Value  : (none)
    Changes       : Author, 		Date, 		Version, 	Reason

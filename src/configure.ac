@@ -4,7 +4,7 @@
 AC_PREREQ(2.59)
 AC_INIT(solarlogger, 0.1, mbarchfe@gmail.com)
 AC_CONFIG_SRCDIR([solar-logger.c])
-#AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE
 #AM_DISABLE_STATIC
 
 # Checks for programs.
@@ -14,7 +14,7 @@ AC_PROG_MAKE_SET
 
 # Checks for header files.
 AC_HEADER_STDC
-AC_CHECK_HEADERS([modbus/modbus.h sqlite3.h yasdi/libyasdimaster.h ftplib.h])
+AC_CHECK_HEADERS([modbus/modbus.h sqlite3.h yasdi/libyasdimaster.h smadef.h compiler.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_C_CONST
@@ -38,11 +38,6 @@ AC_CHECK_LIB(yasdi, yasdiInitialize, [], [
 
 AC_CHECK_LIB(yasdimaster, yasdiMasterInitialize, [], [
 	echo -n "yasdimaster not found"
-	exit -1
-	])
-
-AC_CHECK_LIB(ftp, FtpInit, [], [
-	echo -n "ftplib not found"
 	exit -1
 	])
 

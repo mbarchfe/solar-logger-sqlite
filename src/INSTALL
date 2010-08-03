@@ -6,8 +6,8 @@ This document describes the installation steps needed to get, compile and run th
 Install required libraries
 ==========================
 
-1. sqlite3 and ftplib are part of the debian package system and can be installed via apt-get
-$ apt-get install sqlite3 libsqlite3-dev ftplib-dev
+1. sqlite3 is part of the debian package system and can be installed via apt-get
+$ apt-get install sqlite3 libsqlite3-dev
 
 2. Fetch and install libmodbus
 $ wget http://launchpad.net/libmodbus/trunk/2.0.3/+download/libmodbus-2.0.3.tar.gz
@@ -55,7 +55,6 @@ $ ldd solar-logger
 	libmodbus.so.2 => /usr/local/lib/libmodbus.so.2 (0x00de8000)
 	libyasdi.so.1 => /usr/local/lib/libyasdi.so.1 (0x009fa000)
 	libyasdimaster.so.1 => /usr/local/lib/libyasdimaster.so.1 (0x007c4000)
-	libftp.so.3 => /usr/lib/libftp.so.3 (0x008c3000)
 	libsqlite3.so.0 => /usr/lib/libsqlite3.so.0 (0x00110000)
 	libc.so.6 => /lib/tls/i686/cmov/libc.so.6 (0x0026d000)
 	libdl.so.2 => /lib/tls/i686/cmov/libdl.so.2 (0x007ec000)
