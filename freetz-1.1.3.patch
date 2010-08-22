@@ -161,7 +161,7 @@ Index: make/libs/yasdi.mk
 ===================================================================
 --- make/libs/yasdi.mk	(revision 0)
 +++ make/libs/yasdi.mk	(revision 0)
-@@ -0,0 +1,72 @@
+@@ -0,0 +1,74 @@
 +$(call PKG_INIT_LIB, 1.8.0)
 +$(PKG)_SOURCE:=$(pkg)-$(YASDI_VERSION)Build11-src.zip
 +$(PKG)_SITE:=http://github.com/downloads/mbarchfe/solar-logger-sqlite
@@ -188,7 +188,9 @@ Index: make/libs/yasdi.mk
 +
 +# configuration is based on cmake
 +$($(PKG)_DIR)/.configured: $($(PKG)_DIR)/.unpacked
-+	(cd $(YASDI_DIR);cmake -DCMAKE_TOOLCHAIN_FILE=freetz-cross.cmake -DCMAKE_INSTALL_PREFIX=/usr .)
++	# a clumsy way to replace placeholders for gcc and build target in freetz-cross.cmake
++	export A=`echo $(TARGET_TOOLCHAIN_STAGING_DIR)|sed "s/\//\\\\\\\\\//g"`; export B=`echo $(TARGET_TOOLCHAIN_STAGING_DIR)/../../../target/bin/mipsel-linux-uclibc-gcc|sed "s/\//\\\\\\\\\//g"`;(cd $(YASDI_DIR); sed -e "s/FREETZ_TARGET_ROOT_PATH/$$A/" -e "s/FREETZ_GCC/$$B/" < freetz-cross.cmake > freetz-cross.cmake.replaced)
++	(cd $(YASDI_DIR);cmake -DCMAKE_TOOLCHAIN_FILE=freetz-cross.cmake.replaced -DCMAKE_INSTALL_PREFIX=/usr .)
 +	touch $@
 +
 +# Do not compile with optimized place because then all channel values become 0
@@ -251,11 +253,11 @@ Index: make/libs/patches/200-cross-cmake.yasdi.patch
 ++SET(CMAKE_SYSTEM_VERSION 1)
 ++
 ++# specify the cross compiler
-++SET(CMAKE_C_COMPILER   /home/ubuntu/freetz/toolchain/target/bin/mipsel-linux-uclibc-gcc)
+++SET(CMAKE_C_COMPILER FREETZ_GCC)
 ++#SET(CMAKE_CXX_COMPILER /opt/eldk-2007-01-19/usr/bin/ppc_74xx-g++)
 ++
 ++# where is the target environment 
-++SET(CMAKE_FIND_ROOT_PATH /home/ubuntu/freetz/toolchain/build/gcc-4.2.1-uClibc-0.9.29/mipsel-linux-uclibc)
+++SET(CMAKE_FIND_ROOT_PATH FREETZ_TARGET_ROOT_PATH)
 ++
 ++# search for programs in the build host directories
 ++SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
