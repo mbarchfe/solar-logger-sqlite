@@ -17,8 +17,16 @@ f.write("\n")
 f.flush
 
 @read = []
-
-$stdin.each_byte { |b|
+require 'socket'
+serv = TCPServer.new(7070)
+begin
+       sock = serv.accept_nonblock
+rescue Errno::EAGAIN, Errno::ECONNABORTED, Errno::EPROTO, Errno::EINTR
+       IO.select([serv])
+       retry
+end
+# replace sock with $stdin if mock tty should be local
+sock.each_byte { |b|
  @read << b
  a_ser = serialize(@read)
  f.write(a_ser)
@@ -26,8 +34,9 @@ $stdin.each_byte { |b|
  f.flush
  match = data.select { |p| (false) or ( a_ser =~ Regexp.new(p['request']))}.each {
    |p|
-   p['response_a'].each { |h| printf $stdout, "%c", h }
-   $stdout.flush
+   # replace sock with $stdout if tty should be local
+   p['response_a'].each { |h| printf sock, "%c", h }
+   #$stdout.flush
    f.write("\nanswered: #{p['name']}\n")
    f.flush();
    @read = []

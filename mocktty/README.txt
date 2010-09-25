@@ -5,6 +5,12 @@ Calling mocktty.sh creates a mock tty at /tmp/mocktty. The ruby script serialmoc
 the data written to /tmp/mocktty with request patterns given in mockdata.yaml. If a valid
 pattern is found, the script writes the appropriate response to /tmp/mocktty.
 
+The mock tty can be created on the same host where also the ruby runs or they can be on separate hosts.
+
+socat PTY,link=/tmp/mocktty,raw,echo=0 EXEC:"ruby1.9 serialmock.rb 
+socat PTY,link=/tmp/mocktty TCP:192.168.1.181:7070
+
+
 With the solar-logger.ini set up accordingly the mock tty should allow to run the
 solar-logger without serial devices attached. You should set at least the following attributes 
 in solar-logger.ini:
