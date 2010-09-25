@@ -1,3 +1,0 @@
-47 23 * * * (cd /solar; /solar/restart.sh >> /solar/restart.log 2>&1)  
-*/5 * * * * (cd /solar; /solar/watchdog.sh)
-21,51 * * * * (cd /solar; /solar/sync.sh >> /solar/sync.log 2>&1)
